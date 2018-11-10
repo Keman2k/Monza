@@ -1,0 +1,3 @@
+monza:
+    resource: "@MonzaBundle/Resources/config/routing.yml"
+    prefix:   /

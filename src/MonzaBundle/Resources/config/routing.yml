@@ -1,0 +1,7 @@
+monza_homepage:
+    path:     /
+    defaults: { _controller: MonzaBundle:Default:index }
+
+monza_test:
+    path:     /test
+    defaults: { _controller: MonzaBundle:Default:test }
