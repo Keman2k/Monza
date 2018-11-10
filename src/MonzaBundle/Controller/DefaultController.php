@@ -13,6 +13,14 @@ class DefaultController extends Controller
 
     public function testAction()
     {
-    	return $this->render('@Monza/Default/test.html.twig');
+
+    	// je fais plein de truc ici.
+
+		$number1 = random_int(0, 10);
+		$number2 = random_int(0, 10);
+
+
+		// je donne mon travail à la vue.
+    	return $this->render('@Monza/Default/test.html.twig', array('number1' => $number1, 'number2' => $number2));
     }
 }

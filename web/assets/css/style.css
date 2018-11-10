@@ -1,0 +1,49 @@
+.logoNav{
+  width: 15%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #419be0;
+}
+
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  background: white;
+}
+
+
+body{
+  background-image:url(assets/img/background.jpg);
+}
+
+
+
+
+
+/*
+--------------------------------------
+Code fonctionnel
+*/
+
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+
+.footer,.dropdown-menu{
+  background-color: rgb(38, 34, 35);
+  color: rgb(247, 234, 68);
+}
+
+.dropdown-item,#navbarDropdown,#acceuil,#valider{
+  color: rgb(246, 233, 68);
+}
+
+#acceuil{
+  width: 10%;
+}
