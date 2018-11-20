@@ -16,6 +16,11 @@ class VoitureController extends Controller
      public function brandAction($brandId)
     {
 
+
+# php bin/console doctrine:generate:entity
+# php bin/console doctrine:generate:entities AcmeMyBundle:Customer
+# php bin/console doctrine:schema:update --force
+
         $product = $this->getDoctrine()
         ->getRepository(User::class)
         ->find($brandId);

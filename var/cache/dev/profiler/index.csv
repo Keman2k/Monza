@@ -199,3 +199,9 @@ c05ca9,127.0.0.1,GET,http://localhost:8000/brand/1,1542747515,,200
 1a40b5,127.0.0.1,GET,http://localhost:8000/brand/1,1542747768,,200
 697b68,127.0.0.1,GET,http://localhost:8000/brand/2,1542747773,,200
 90050b,127.0.0.1,GET,http://localhost:8000/brand/1,1542748051,,200
+f69cf7,127.0.0.1,GET,http://localhost:8000/brand/1,1542749315,,200
+6e543c,127.0.0.1,GET,http://localhost:8000/brand/1,1542749687,,200
+07a20f,127.0.0.1,GET,http://localhost:8000/brand/1,1542749754,,200
+95c638,127.0.0.1,GET,http://localhost:8000/brand/,1542749762,d989aa,200
+d989aa,127.0.0.1,GET,http://localhost:8000/brand/,1542749762,,404
+cc51f6,127.0.0.1,GET,http://localhost:8000/brand/2,1542749766,,200

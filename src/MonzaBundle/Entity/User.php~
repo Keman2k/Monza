@@ -155,33 +155,4 @@ class User
     {
         return $this->surname2;
     }
-    /**
-     * @var string
-     */
-    private $surname3;
-
-
-    /**
-     * Set surname3
-     *
-     * @param string $surname3
-     *
-     * @return User
-     */
-    public function setSurname3($surname3)
-    {
-        $this->surname3 = $surname3;
-
-        return $this;
-    }
-
-    /**
-     * Get surname3
-     *
-     * @return string
-     */
-    public function getSurname3()
-    {
-        return $this->surname3;
-    }
 }

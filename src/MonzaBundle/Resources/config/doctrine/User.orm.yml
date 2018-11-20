@@ -18,4 +18,13 @@ MonzaBundle\Entity\User:
         name:
             type: string
             length: 255
+        surname:
+            type: string
+            length: 255
+        surname2:
+            type: string
+            length: 255
+        surname3:
+            type: string
+            length: 255
     lifecycleCallbacks: {  }
