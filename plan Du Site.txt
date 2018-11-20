@@ -1,0 +1,7 @@
+Plan du site : 
+
+Page circuits :
+		Page contenant toutes les infos de bases des circuits avec liens qui mènent vers une page descriptive du circuits (noms des virages, conseils de pilotage, montées, descentes, largeur de la voie des stands, direction à prendre (droite ou gauche) en sortant des stands), si possible avec une vidéo, sinon avec photos). Mettre une date et un lien pour la réservation. Si la date est valide, la faire apparaitre en vert, sinon en rouge. Le client doit être inscris/connecté sur le site pour pouvoir réserver. Il doit pouvoir aussi laisser un avis (et/ ou un message au webmaster) en étant connecté/inscris.
+
+Page voitures :
+		Page contenant aussi toutes les marques (logos cliquables qui mèneront vers une fiche descriptive de la voiture). Mettre l'histoire du modèle, ses caractèristiques techniques, mettre un slider avec plusieurs photos du modèle en question. Pareil que sur la page circuit, mettre un calendrier avec des dates vertes si dispo ou rouge pour le cas inverse. Il doit pouvoir aussi laisser un avis (et/ ou un message au webmaster) en étant connecté/inscris.

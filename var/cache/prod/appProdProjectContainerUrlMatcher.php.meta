@@ -1,0 +1,1 @@
+a:3:{i:0;C:46:"Symfony\Component\Config\Resource\FileResource":54:{s:46:"C:\wamp64\www\php\Monza\app\config\routing.yml";}i:1;C:46:"Symfony\Component\Config\Resource\FileResource":76:{s:68:"C:\wamp64\www\php\Monza\src\MonzaBundle\Resources\config\routing.yml";}i:2;C:72:"Symfony\Component\DependencyInjection\Config\ContainerParametersResource":6:{a:0:{}}}
