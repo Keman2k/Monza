@@ -11,6 +11,12 @@ class VoitureController extends Controller
         return $this->render('@Monza/Default/ferrari.html.twig');
     }
 
+     public function brandAction($brandId)
+    {
+        return $this->render('@Monza/Default/brand.html.twig', array('brandId' => $brandId));
+    }
+
+
     public function F40Action()
     {
     	return $this->render('@Monza/Default/f40.html.twig');

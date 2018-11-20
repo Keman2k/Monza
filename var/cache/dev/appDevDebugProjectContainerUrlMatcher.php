@@ -122,12 +122,12 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
         not_monza_homepage:
 
-        if (0 === strpos($pathinfo, '/F')) {
-            // voiures_global
-            if ('/Ferrari' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::ferrariAction',  '_route' => 'voiures_global',);
-            }
+        // voiures_global
+        if (0 === strpos($pathinfo, '/brand') && preg_match('#^/brand/(?P<brandId>[^/]++)$#sD', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'voiures_global')), array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::brandAction',));
+        }
 
+        if (0 === strpos($pathinfo, '/F')) {
             // monza_F40
             if ('/F40' === $pathinfo) {
                 return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::F40Action',  '_route' => 'monza_F40',);
