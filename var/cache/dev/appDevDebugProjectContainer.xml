@@ -94,11 +94,11 @@
     <parameter key="kernel.container_class">appDevDebugProjectContainer</parameter>
     <parameter key="container.autowiring.strict_mode">true</parameter>
     <parameter key="container.dumper.inline_class_loader">true</parameter>
-    <parameter key="database_host">127.0.0.1</parameter>
-    <parameter key="database_port">null</parameter>
-    <parameter key="database_name">symfony</parameter>
-    <parameter key="database_user">root</parameter>
-    <parameter key="database_password">null</parameter>
+    <parameter key="database_host">sql2.freemysqlhosting.net</parameter>
+    <parameter key="database_port">3306</parameter>
+    <parameter key="database_name">sql2266345</parameter>
+    <parameter key="database_user">sql2266345</parameter>
+    <parameter key="database_password">nL5!iT2%</parameter>
     <parameter key="mailer_transport">smtp</parameter>
     <parameter key="mailer_host">127.0.0.1</parameter>
     <parameter key="mailer_user">null</parameter>
@@ -3112,11 +3112,11 @@
     <service id="doctrine.dbal.default_connection" class="Doctrine\DBAL\Connection" public="true">
       <argument type="collection">
         <argument key="driver">pdo_mysql</argument>
-        <argument key="host">127.0.0.1</argument>
-        <argument key="port">null</argument>
-        <argument key="dbname">symfony</argument>
-        <argument key="user">root</argument>
-        <argument key="password">null</argument>
+        <argument key="host">sql2.freemysqlhosting.net</argument>
+        <argument key="port">3306</argument>
+        <argument key="dbname">sql2266345</argument>
+        <argument key="user">sql2266345</argument>
+        <argument key="password">nL5!iT2%</argument>
         <argument key="charset">UTF8</argument>
         <argument key="driverOptions" type="collection"/>
         <argument key="defaultTableOptions" type="collection"/>
@@ -3264,7 +3264,9 @@
     </service>
     <service id="doctrine.orm.default_configuration" class="Doctrine\ORM\Configuration" public="false">
       <call method="setEntityNamespaces">
-        <argument type="collection"/>
+        <argument type="collection">
+          <argument key="MonzaBundle">MonzaBundle\Entity</argument>
+        </argument>
       </call>
       <call method="setMetadataCacheImpl">
         <argument type="service" id="doctrine_cache.providers.doctrine.orm.default_metadata_cache"/>
@@ -3306,7 +3308,20 @@
         <argument type="service" id="doctrine.orm.container_repository_factory"/>
       </call>
     </service>
-    <service id="doctrine.orm.default_metadata_driver" class="Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain" public="false"/>
+    <service id="doctrine.orm.default_yml_metadata_driver" class="Doctrine\ORM\Mapping\Driver\SimplifiedYamlDriver" public="false">
+      <argument type="collection">
+        <argument key="H:\Java\workspaces\monza\src\MonzaBundle\Resources\config\doctrine">MonzaBundle\Entity</argument>
+      </argument>
+      <call method="setGlobalBasename">
+        <argument>mapping</argument>
+      </call>
+    </service>
+    <service id="doctrine.orm.default_metadata_driver" class="Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain" public="false">
+      <call method="addDriver">
+        <argument type="service" id="doctrine.orm.default_yml_metadata_driver"/>
+        <argument>MonzaBundle\Entity</argument>
+      </call>
+    </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_metadata_cache" class="Doctrine\Common\Cache\ArrayCache" public="true">
       <call method="setNamespace">
         <argument>sf_orm_default_57b7e0342190e91638fc40acb467b6a7a7ec722d94d2bb9a28ea3ad4da3cb088</argument>

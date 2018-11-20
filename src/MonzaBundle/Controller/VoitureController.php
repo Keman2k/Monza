@@ -3,6 +3,8 @@
 namespace MonzaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use MonzaBundle\Entity\User;
+use Doctrine\ORM\EntityManagerInterface;
 
 class VoitureController extends Controller
 {
@@ -13,7 +15,18 @@ class VoitureController extends Controller
 
      public function brandAction($brandId)
     {
-        return $this->render('@Monza/Default/brand.html.twig', array('brandId' => $brandId));
+
+        $product = $this->getDoctrine()
+        ->getRepository(User::class)
+        ->find($brandId);
+
+        if (!$product) {
+            throw $this->createNotFoundException(
+                'No product found for id '.$productId
+            );
+        }
+
+        return $this->render('@Monza/Default/brand.html.twig', array('product' => $product));
     }
 
 

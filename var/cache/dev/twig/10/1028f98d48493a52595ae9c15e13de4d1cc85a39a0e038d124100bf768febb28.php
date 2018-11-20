@@ -49,8 +49,10 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
         echo "
 <h3>Les modèlessss ";
         // line 6
-        echo twig_escape_filter($this->env, ($context["brandId"] ?? $this->getContext($context, "brandId")), "html", null, true);
-        echo " que nous vous proposont : </h3>
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["product"] ?? $this->getContext($context, "product")), "getEmail", array(), "method"), "html", null, true);
+        echo " que nous vous proposont ";
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["product"] ?? $this->getContext($context, "product")), "getName", array(), "method"), "html", null, true);
+        echo ": </h3>
 
 \t<ul>
 \t\t<li>Ferrari F40 : le porte-drapeau de toute une marque</li><iframe width=\"350\" height=\"250\" src=\"https://www.youtube.com/embed/j66xp4U3BNY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
@@ -120,7 +122,7 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
 
 {% block body %}
 
-<h3>Les modèlessss {{brandId}} que nous vous proposont : </h3>
+<h3>Les modèlessss {{product.getEmail()}} que nous vous proposont {{product.getName()}}: </h3>
 
 \t<ul>
 \t\t<li>Ferrari F40 : le porte-drapeau de toute une marque</li><iframe width=\"350\" height=\"250\" src=\"https://www.youtube.com/embed/j66xp4U3BNY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
