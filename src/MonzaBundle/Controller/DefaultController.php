@@ -23,4 +23,10 @@ class DefaultController extends Controller
 		// je donne mon travail à la vue.
     	return $this->render('@Monza/Default/test.html.twig', array('number1' => $number1, 'number2' => $number2));
     }
+
+    public function voitureAction()
+    {
+
+        return $this->render('@Monza/Default/voiture.html.twig')
+    }
 }
