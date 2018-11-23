@@ -1256,6 +1256,6 @@ div.sf-toolbar .sf-toolbar-block a:hover {
         display: none;
     }
 }
-", "@WebProfiler/Profiler/toolbar.css.twig", "C:\\wamp64\\www\\php\\Monza\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle\\Resources\\views\\Profiler\\toolbar.css.twig");
+", "@WebProfiler/Profiler/toolbar.css.twig", "C:\\Monza\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle\\Resources\\views\\Profiler\\toolbar.css.twig");
     }
 }

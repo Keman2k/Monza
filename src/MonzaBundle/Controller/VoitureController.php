@@ -3,7 +3,7 @@
 namespace MonzaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use MonzaBundle\Entity\User;
+use MonzaBundle\Entity\marque;
 use Doctrine\ORM\EntityManagerInterface;
 
 class VoitureController extends Controller
@@ -13,7 +13,7 @@ class VoitureController extends Controller
         return $this->render('@Monza/Default/ferrari.html.twig');
     }
 
-     public function brandAction($brandId)
+     public function marqueAction($marqueId)
     {
 
 
@@ -22,8 +22,8 @@ class VoitureController extends Controller
 # php bin/console doctrine:schema:update --force
 
         $product = $this->getDoctrine()
-        ->getRepository(User::class)
-        ->find($brandId);
+        ->getRepository(marque::class)
+        ->find($marqueId);
 
         if (!$product) {
             throw $this->createNotFoundException(

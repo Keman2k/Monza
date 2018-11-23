@@ -123,8 +123,8 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         not_monza_homepage:
 
         // voiures_global
-        if (0 === strpos($pathinfo, '/brand') && preg_match('#^/brand/(?P<brandId>[^/]++)$#sD', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'voiures_global')), array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::brandAction',));
+        if (0 === strpos($pathinfo, '/marque') && preg_match('#^/marque/(?P<marqueId>[^/]++)$#sD', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'voiures_global')), array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::marqueAction',));
         }
 
         if (0 === strpos($pathinfo, '/F')) {

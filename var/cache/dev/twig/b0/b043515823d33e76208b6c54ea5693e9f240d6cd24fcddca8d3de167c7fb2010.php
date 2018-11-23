@@ -77,6 +77,6 @@ class __TwigTemplate_739de21c4f0c789d7b4e31ed2ed7a69d590e37ff9f3062b9d5f4977ceee
         <option value=\"<?php echo \$view->escape(\$choice->value) ?>\" <?php echo \$formHelper->block(\$form, 'choice_attributes', array('choice_attr' => \$choice->attr)) ?><?php if (\$is_selected(\$choice->value, \$value)): ?> selected=\"selected\"<?php endif?>><?php echo \$view->escape(false !== \$choice_translation_domain ? \$translatorHelper->trans(\$choice->label, array(), \$choice_translation_domain) : \$choice->label) ?></option>
     <?php endif ?>
 <?php endforeach ?>
-", "@Framework/Form/choice_widget_options.html.php", "C:\\wamp64\\www\\php\\Monza\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\FrameworkBundle\\Resources\\views\\Form\\choice_widget_options.html.php");
+", "@Framework/Form/choice_widget_options.html.php", "C:\\Monza\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\FrameworkBundle\\Resources\\views\\Form\\choice_widget_options.html.php");
     }
 }

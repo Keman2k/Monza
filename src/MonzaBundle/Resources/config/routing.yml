@@ -5,8 +5,8 @@ monza_homepage:
 
 # Route pour la page de description des marques de voiture
 voiures_global:
-    path:     /brand/{brandId}
-    defaults: { _controller: MonzaBundle:Voiture:brand}
+    path:     /marque/{marqueId}
+    defaults: { _controller: MonzaBundle:Voiture:marque}
 
 # Route pour les pages voitures
 voiures_global:

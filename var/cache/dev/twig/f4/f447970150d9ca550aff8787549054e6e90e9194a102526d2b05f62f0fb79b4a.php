@@ -220,6 +220,6 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         {% block javascripts %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\wamp64\\www\\php\\Monza\\app\\Resources\\views\\base.html.twig");
+", "base.html.twig", "C:\\Monza\\app\\Resources\\views\\base.html.twig");
     }
 }

@@ -148,6 +148,6 @@ class __TwigTemplate_d4f0225b065991f93af4837100151126987197bff153e3ccd1ece87158a
 \t\t<p>&nbsp;</p>
 \t</div>
 </div>
-{% endblock %}", "@Monza/Default/ferrari.html.twig", "C:\\wamp64\\www\\php\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\ferrari.html.twig");
+{% endblock %}", "@Monza/Default/ferrari.html.twig", "C:\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\ferrari.html.twig");
     }
 }

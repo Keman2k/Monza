@@ -254,6 +254,6 @@ class __TwigTemplate_877f939b0738e18d549a750e7e5a745daa30b09c427857ef04ff5db2262
     }
 </style>
 {% endblock %}
-", "default/index.html.twig", "C:\\wamp64\\www\\php\\Monza\\app\\Resources\\views\\default\\index.html.twig");
+", "default/index.html.twig", "C:\\Monza\\app\\Resources\\views\\default\\index.html.twig");
     }
 }

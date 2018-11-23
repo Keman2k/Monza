@@ -100,6 +100,6 @@ class __TwigTemplate_c654f33a75cd433f4007ba0a4a4e833d786ca90f1f91c8e2a90a3b21a93
 \t\t<li>Masérati MC12 : La plus puissante des Masérati !</li><iframe width=\"350\" height=\"250\" src=\"https://www.youtube.com/embed/r-aUPAFyP78\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
 \t</ul>
 
-{% endblock %}", "@Monza/Default/maserati.html.twig", "C:\\wamp64\\www\\php\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\maserati.html.twig");
+{% endblock %}", "@Monza/Default/maserati.html.twig", "C:\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\maserati.html.twig");
     }
 }

@@ -192,6 +192,6 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
 \t
 </section>
 
-{% endblock %}", "@Monza/Default/index.html.twig", "C:\\wamp64\\www\\php\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
+{% endblock %}", "@Monza/Default/index.html.twig", "C:\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
     }
 }

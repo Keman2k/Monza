@@ -452,6 +452,6 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t</div>
 \t</article>
 
-{% endblock %}", "@Monza/Default/circuits.html.twig", "C:\\wamp64\\www\\php\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\circuits.html.twig");
+{% endblock %}", "@Monza/Default/circuits.html.twig", "C:\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\circuits.html.twig");
     }
 }
