@@ -25,7 +25,17 @@ class brand
     /**
      * @var string
      */
+    private $brandModel;
+
+    /**
+     * @var string
+     */
     private $brandPower;
+
+    /**
+     * @var string
+     */
+    private $brandImage;
 
 
     /**
@@ -87,6 +97,30 @@ class brand
     }
 
     /**
+     * Set brandModel
+     *
+     * @param string $brandModel
+     *
+     * @return brand
+     */
+    public function setBrandModel($brandModel)
+    {
+        $this->brandModel = $brandModel;
+
+        return $this;
+    }
+
+    /**
+     * Get brandModel
+     *
+     * @return string
+     */
+    public function getBrandModel()
+    {
+        return $this->brandModel;
+    }
+
+    /**
      * Set brandPower
      *
      * @param string $brandPower
@@ -108,5 +142,116 @@ class brand
     public function getBrandPower()
     {
         return $this->brandPower;
+    }
+
+    /**
+     * Set brandImage
+     *
+     * @param string $brandImage
+     *
+     * @return brand
+     */
+    public function setBrandImage($brandImage)
+    {
+        $this->brandImage = $brandImage;
+
+        return $this;
+    }
+
+    /**
+     * Get brandImage
+     *
+     * @return string
+     */
+    public function getBrandImage()
+    {
+        return $this->brandImage;
+    }
+    /**
+     * @var string
+     */
+    private $brandVideo;
+
+    /**
+     * @var string
+     */
+    private $brandVMax;
+
+
+    /**
+     * Set brandVideo
+     *
+     * @param string $brandVideo
+     *
+     * @return brand
+     */
+    public function setBrandVideo($brandVideo)
+    {
+        $this->brandVideo = $brandVideo;
+
+        return $this;
+    }
+
+    /**
+     * Get brandVideo
+     *
+     * @return string
+     */
+    public function getBrandVideo()
+    {
+        return $this->brandVideo;
+    }
+
+    /**
+     * Set brandVMax
+     *
+     * @param string $brandVMax
+     *
+     * @return brand
+     */
+    public function setBrandVMax($brandVMax)
+    {
+        $this->brandVMax = $brandVMax;
+
+        return $this;
+    }
+
+    /**
+     * Get brandVMax
+     *
+     * @return string
+     */
+    public function getBrandVMax()
+    {
+        return $this->brandVMax;
+    }
+    /**
+     * @var string
+     */
+    private $brandtitle;
+
+
+    /**
+     * Set brandtitle
+     *
+     * @param string $brandtitle
+     *
+     * @return brand
+     */
+    public function setBrandtitle($brandtitle)
+    {
+        $this->brandtitle = $brandtitle;
+
+        return $this;
+    }
+
+    /**
+     * Get brandtitle
+     *
+     * @return string
+     */
+    public function getBrandtitle()
+    {
+        return $this->brandtitle;
     }
 }

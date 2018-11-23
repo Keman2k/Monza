@@ -1,9 +1,5 @@
-c9ada1,127.0.0.1,GET,http://localhost:8000/brand/1,1542968999,,200
-cd46ca,127.0.0.1,GET,http://localhost:8000/brand/1,1542969164,8b25e7,200
-8b25e7,127.0.0.1,GET,http://localhost:8000/brand/1,1542969164,,500
-3f9c66,127.0.0.1,GET,http://localhost:8000/brand/1,1542969280,,200
-ab7887,127.0.0.1,GET,http://localhost:8000/brand/1,1542969389,,200
-292f8a,127.0.0.1,GET,http://localhost:8000/brand/1,1542969406,,200
-760b8b,127.0.0.1,GET,http://localhost:8000/brand/1,1542969421,,200
-973709,127.0.0.1,GET,http://localhost:8000/brand/1,1542970056,6bc8ef,200
-6bc8ef,127.0.0.1,GET,http://localhost:8000/brand/1,1542970056,,404
+1e5058,127.0.0.1,GET,http://localhost:8000/brand/1,1542980098,db6bb6,200
+db6bb6,127.0.0.1,GET,http://localhost:8000/brand/1,1542980098,,404
+af2097,127.0.0.1,GET,http://localhost:8000/,1542984322,,200
+a1c348,127.0.0.1,GET,http://localhost:8000/Lamborghini,1542984331,,200
+af1f9b,127.0.0.1,GET,http://localhost:8000/Pagani,1542984338,,200
