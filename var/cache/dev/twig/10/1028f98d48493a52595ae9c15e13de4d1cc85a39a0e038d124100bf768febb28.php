@@ -65,7 +65,9 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
 ";
         // line 10
         echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandHistory", array()), "html", null, true);
-        echo "
+        echo ", <img src=\"";
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandImage", array()), "html", null, true);
+        echo "\">
 
 
 
@@ -114,7 +116,7 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
 
 <h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} !</h4>
 
-{{brand.getBrandHistory}}
+{{brand.getBrandHistory}}, <img src=\"{{brand.getBrandImage}}\">
 
 
 

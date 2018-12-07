@@ -30,4 +30,7 @@ MonzaBundle\Entity\brand:
         brandtitle:
             type: string
             length: 255
+        brandImage:
+            type: string
+            length: 255
     lifecycleCallbacks: {  }
