@@ -49,18 +49,27 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
         echo "
 <h3>Les modèles ";
         // line 5
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["product"] ?? $this->getContext($context, "product")), "getBrandName", array(), "method"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandName", array(), "method"), "html", null, true);
         echo " que nous vous proposont : </h3>
 
 
 <h4>La ";
         // line 8
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["produt"] ?? $this->getContext($context, "produt")), "getBrandName", array(), "method"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandName", array(), "method"), "html", null, true);
         echo " ";
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["product"] ?? $this->getContext($context, "product")), "getBrandModele", array()), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandModel", array()), "html", null, true);
         echo ", ";
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["product"] ?? $this->getContext($context, "product")), "getBrandTitle", array()), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandTitle", array()), "html", null, true);
         echo " !</h4>
+
+";
+        // line 10
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandHistory", array()), "html", null, true);
+        echo "
+
+
+
+
 
 ";
         
@@ -83,7 +92,7 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
 
     public function getDebugInfo()
     {
-        return array (  58 => 8,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  67 => 10,  58 => 8,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -100,11 +109,17 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
 
 {% block body %}
 
-<h3>Les modèles {{product.getBrandName()}} que nous vous proposont : </h3>
+<h3>Les modèles {{brand.getBrandName()}} que nous vous proposont : </h3>
 
 
-<h4>La {{produt.getBrandName()}} {{product.getBrandModele}}, {{product.getBrandTitle}} !</h4>
+<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} !</h4>
 
-{% endblock %}", "@Monza/Default/brand.html.twig", "C:\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\brand.html.twig");
+{{brand.getBrandHistory}}
+
+
+
+
+
+{% endblock %}", "@Monza/Default/brand.html.twig", "H:\\Java\\workspaces\\monza\\src\\MonzaBundle\\Resources\\views\\Default\\brand.html.twig");
     }
 }

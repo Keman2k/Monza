@@ -225,4 +225,33 @@ class brand
     {
         return $this->brandVMax;
     }
+    /**
+     * @var string
+     */
+    private $brandtitle;
+
+
+    /**
+     * Set brandtitle
+     *
+     * @param string $brandtitle
+     *
+     * @return brand
+     */
+    public function setBrandtitle($brandtitle)
+    {
+        $this->brandtitle = $brandtitle;
+
+        return $this;
+    }
+
+    /**
+     * Get brandtitle
+     *
+     * @return string
+     */
+    public function getBrandtitle()
+    {
+        return $this->brandtitle;
+    }
 }

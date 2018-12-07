@@ -2,9 +2,15 @@
 
 {% block body %}
 
-<h3>Les modèles {{product.getBrandName()}} que nous vous proposont : </h3>
+<h3>Les modèles {{brand.getBrandName()}} que nous vous proposont : </h3>
 
 
-<h4>La {{produt.getBrandName()}} {{product.getBrandModele}}, {{product.getBrandTitle}} !</h4>
+<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} !</h4>
+
+{{brand.getBrandHistory}}
+
+
+
+
 
 {% endblock %}

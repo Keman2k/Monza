@@ -53,7 +53,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
           <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
             <ul class=\"navbar-nav mr-auto\">
               <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/Ferrari\">Voitures</a>
+                <a class=\"nav-link\" href=\"/brands\">Voitures</a>
               </li>
               <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"/Circuits\">Circuits</a>
@@ -200,7 +200,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
           <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
             <ul class=\"navbar-nav mr-auto\">
               <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/Ferrari\">Voitures</a>
+                <a class=\"nav-link\" href=\"/brands\">Voitures</a>
               </li>
               <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"/Circuits\">Circuits</a>
@@ -220,6 +220,6 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         {% block javascripts %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\Monza\\app\\Resources\\views\\base.html.twig");
+", "base.html.twig", "H:\\Java\\workspaces\\monza\\app\\Resources\\views\\base.html.twig");
     }
 }
