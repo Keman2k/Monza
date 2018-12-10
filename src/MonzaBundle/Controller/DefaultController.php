@@ -10,6 +10,7 @@ class DefaultController extends Controller
     {
         return $this->render('@Monza/Default/index.html.twig');
     }
+<<<<<<< HEAD
 
     public function testAction()
     {
@@ -29,4 +30,6 @@ class DefaultController extends Controller
 
         return $this->render('@Monza/Default/voiture.html.twig')
     }
+=======
+>>>>>>> a483d47fd4c9b2fcba0dfe29f09a3c375c9575b3
 }

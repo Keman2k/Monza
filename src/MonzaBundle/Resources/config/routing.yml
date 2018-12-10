@@ -1,7 +1,129 @@
+# Route pour la home
 monza_homepage:
     path:     /
     defaults: { _controller: MonzaBundle:Default:index }
 
-monza_test:
-    path:     /test
-    defaults: { _controller: MonzaBundle:Default:test }
+# Route pour la page de description des marques de voiture
+voiures_global:
+    path:     /brands/{brandId}
+    defaults: { _controller: MonzaBundle:Voiture:brand}
+
+# Route pour les pages voitures
+voiures_globalite:
+    path:     /brands
+    defaults: { _controller: MonzaBundle:Voiture:brands }
+
+monza_F40:
+    path:     /F40
+    defaults: { _controller: MonzaBundle:Voiture:F40 }
+
+monza_F430:
+    path:     /F430
+    defaults: { _controller: MonzaBundle:Voiture:F430 }
+
+monza_Laferrari:
+    path:     /Laferrari
+    defaults: { _controller: MonzaBundle:Voiture:Laferrari }
+
+monza_Lamborghini:
+    path:     /Lamborghini
+    defaults: { _controller: MonzaBundle:Voiture:Lamborghini }
+
+monza_Gallardo:
+    path:     /Gallardo
+    defaults: { _controller: MonzaBundle:Voiture:Gallardo }
+
+monza_Murcielago:
+    path:     /Murcielago
+    defaults: { _controller: MonzaBundle:Voiture:Murcielago }
+
+monza_Pagani:
+    path:     /Pagani
+    defaults: { _controller: MonzaBundle:Voiture:Pagani }
+
+monza_Maserati:
+    path:     /Maserati
+    defaults: { _controller: MonzaBundle:Voiture:Maserati }
+
+# Routes pour la page Circuits
+
+monza_Circuits:
+    path:     /Circuits
+    defaults: { _controller: MonzaBundle:Circuits:Circuits }
+
+monza_Brand:
+    path:     /Brands
+    defaults: { _controller: MonzaBundle:Circuits:Brands }
+
+monza_Bugatti:
+    path:     /Bugatti
+    defaults: { _controller: MonzaBundle:Circuits:Bugatti }
+
+monza_Charrade:
+    path:     /Charrade
+    defaults: { _controller: MonzaBundle:Circuits:Charrade }
+
+monza_Dijon:
+    path:     /Dijon
+    defaults: { _controller: MonzaBundle:Circuits:Dijon }
+
+monza_Donington:
+    path:     /Donington
+    defaults: { _controller: MonzaBundle:Circuits:Donington }
+
+monza_Fiorano:
+    path:     /Fiorano
+    defaults: { _controller: MonzaBundle:Circuits:Fiorano }
+
+monza_Hokenheimring:
+    path:     /Hokenheimring
+    defaults: { _controller: MonzaBundle:Circuits:Hokenheimring }
+
+monza_Imola:
+    path:     /Imola
+    defaults: { _controller: MonzaBundle:Circuits:Imola }
+
+monza_Magny:
+    path:     /Magny
+    defaults: { _controller: MonzaBundle:Circuits:Magny }
+
+monza_Misano:
+    path:     /Misano
+    defaults: { _controller: MonzaBundle:Circuits:Misano }
+
+monza_Monza:
+    path:     /Monza
+    defaults: { _controller: MonzaBundle:Circuits:Monza }
+
+monza_Nordschleife:
+    path:     /Nordschleife
+    defaults: { _controller: MonzaBundle:Circuits:Nordschleife }
+
+monza_Nürburgring:
+    path:     /Nürburgring
+    defaults: { _controller: MonzaBundle:Circuits:Nürburgring }
+
+monza_Paul:
+    path:     /Paul
+    defaults: { _controller: MonzaBundle:Circuits:Paul }
+
+monza_Pescara:
+    path:     /Pescara
+    defaults: { _controller: MonzaBundle:Circuits:Pescara }
+
+monza_Rouen:
+    path:     /Rouen
+    defaults: { _controller: MonzaBundle:Circuits:Rouen }
+
+monza_Vallelunga:
+    path:     /Vallelunga
+    defaults: { _controller: MonzaBundle:Circuits:Vallelunga }
+
+# Routes pour la page USER
+monza_inscription:
+    path:     /inscription
+    defaults: { _controller: MonzaBundle:User:Inscription }
+
+monza_connection:
+    path:     /connection
+    defaults: { _controller: MonzaBundle:User:Connection }

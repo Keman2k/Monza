@@ -1,0 +1,36 @@
+MonzaBundle\Entity\brand:
+    type: entity
+    table: null
+    repositoryClass: MonzaBundle\Repository\brandRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        brandName:
+            type: string
+            length: 255
+        brandHistory:
+            type: string
+            length: 255
+        brandModel:
+            type: string
+            length: 255
+        brandPower:
+            type: string
+            length: 255
+        brandVideo:
+            type: string
+            length: 255
+        brandVMax:
+            type: string
+            length: 255
+        brandtitle:
+            type: string
+            length: 255
+        brandImage:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

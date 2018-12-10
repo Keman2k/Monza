@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: adm.minecraft-mania.fr
+    database_port: 3306
+    database_name: michel
+    database_user: michel
+    database_password: test123test
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 97b40be457904cf87428c8e582b6f346ef695f88

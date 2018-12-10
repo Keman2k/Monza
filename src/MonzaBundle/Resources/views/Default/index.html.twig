@@ -1,1 +1,50 @@
-Hello World!
+{% extends 'base.html.twig' %}
+
+{% block title %} Keman Racing{% endblock %}
+
+{% block body %}
+
+<section class="voitures">
+	<article>
+		<h2>Ferrari</h2>
+		<div class="metadata">Quelque chose que je pourrais mettre ici</div>
+		<div class="content">
+			<a href="/Ferrari"><img src="/assets/img/logoFerrariOpt.jpg" alt="Ferrari"></a>
+			<p>Les Ferrari ont toujours étés superbes.</p>
+			<a href="/Ferrari" class="btn btn-primary">Lire la suite</a>
+		</div>
+	</article>
+
+		<article>
+		<h2>Lamborghini</h2>
+		<div class="metadata">Quelque chose que je pourrais mettre ici</div>
+		<div class="content">
+			<a href="/Lamborghini"><img src="/assets/img/logoLamborghiniOpt.jpg" alt="Lamborghini"></a>
+			<p>Les Lamborghini ont toujours étés superbes.</p>
+			<a href="/Lamborghini" class="btn btn-primary">Lire la suite</a>
+		</div>
+	</article>
+
+	<article>
+		<h2>Pagani</h2>
+		<div class="metadata">Quelque chose que je pourrais mettre ici</div>
+		<div class="content">
+			<a href="/Pagani"><img src="/assets/img/logoPaganiOpt.jpg" alt="Pagani"></a>
+			<p>Les Pagani ont toujours étés superbes.</p>
+			<a href="/Pagani" class="btn btn-primary">Lire la suite</a>
+		</div>
+	</article>
+
+	<article>
+		<h2>Masérati</h2>
+		<div class="metadata">Quelque chose que je pourrais mettre ici</div>
+		<div class="content">
+			<a href="/Maserati"><img src="/assets/img/logoMaseratiOpt.jpg" alt="Maserati"></a>
+			<p>Les Pagani ont toujours étés superbes.</p>
+			<a href="/Masérati" class="btn btn-primary">Lire la suite</a>
+		</div>
+	</article>
+	
+</section>
+
+{% endblock %}

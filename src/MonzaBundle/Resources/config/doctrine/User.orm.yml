@@ -1,0 +1,30 @@
+MonzaBundle\Entity\User:
+    type: entity
+    table: null
+    repositoryClass: MonzaBundle\Repository\UserRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        email:
+            type: string
+            length: 255
+        password:
+            type: string
+            length: 255
+        name:
+            type: string
+            length: 255
+        surname:
+            type: string
+            length: 255
+        surname2:
+            type: string
+            length: 255
+        surname3:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

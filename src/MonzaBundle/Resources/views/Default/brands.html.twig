@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+            {% for brand in brands %}
+				<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} !</h4>
+            {% endfor %}
+
+
+{% endblock %}

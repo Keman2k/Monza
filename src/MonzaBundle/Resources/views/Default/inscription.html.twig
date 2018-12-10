@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+  <h3>CRÉATION DU COMPTE</h3>
+    <div class="row">
+      <div class="col-sm-6 mx-auto">
+        <form class="form-horizontal">
+          <fieldset>
+            <div class="form-group">
+              <label class="col-md-10 control-label" for="nom">Votre nom :</label>  
+              <div class="col-md-10">
+              <input id="nom" name="nom" type="text" placeholder="Nom" class="form-control input-md" required="">
+              </div>
+            </div>
+                
+            <div class="form-group">
+              <label class="col-md-10 control-label" for="Votre prénom">Votre prénom :</label>  
+              <div class="col-md-10">
+              <input id="Votre prénom" name="Votre prénom" type="text" placeholder="Prénom" class="form-control input-md" required="">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-10 control-label" for="mail">Votre mail :</label>  
+              <div class="col-md-10">
+              <input id="mail" name="mail" type="text" placeholder="Mail" class="form-control input-md" required="">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-10 control-label" for="mail2">Veuillez confirmer votre mail :</label>  
+              <div class="col-md-10">
+              <input id="mail2" name="mail2" type="text" placeholder="Mail" class="form-control input-md" required="">
+              </div>
+            </div>
+                  
+            <div class="form-group">
+              <label class="col-md-10 control-label" for="mdp">Votre mot de passe :</label>
+              <div class="col-md-10">
+              <input id="mdp" name="mdp" type="password" placeholder="Mot de passe" class="form-control input-md" required="">
+              </div>
+            </div>
+                  
+            <div class="form-group">
+              <label class="col-md-10 control-label" for="mdp2">Veuillez confirmer votre mot de passe :</label>
+              <div class="col-md-10">
+              <input id="mdp2" name="mdp2" type="password" placeholder="Mot de passe" class="form-control input-md" required="">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-10 control-label" for="boutton">Enregistrement :</label>
+              <div class="col-md-10">
+              <button id="boutton" name="boutton" class="btn btn-success">Inscription</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+        <a href="/connection">Vous avez déjà un compte ?</a>
+      </div>
+    <div>
+{% endblock %}
