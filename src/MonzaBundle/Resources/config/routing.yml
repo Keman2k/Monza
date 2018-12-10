@@ -48,7 +48,7 @@ monza_Maserati:
 # Routes pour la page Circuits
 
 monza_Circuits:
-    path:     /Circuits
+    path:     /circuits
     defaults: { _controller: MonzaBundle:Circuits:Circuits }
 
 monza_Brand:

@@ -1,39 +1,227 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Keman Racing{% endblock %}</title>
-        <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a class="navbar-brand" href="/">Keman Racing</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+        <title>{% block title %}Bienvenue chez Keman Racing !{% endblock %}</title>
+{% block stylesheets %}
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-          <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/brands">Voitures</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Circuits">Circuits</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/inscription">Votre compte</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
+  <!-- Favicons -->
+  <link href="{{ asset('/assets/img/logo.png') }}" rel="icon">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ruda:400,900,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{{ asset('/assets/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{{ asset('/assets/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/prettyphoto/css/prettyphoto.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/hover/hoverex-all.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/jetmenu/jetmenu.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/owl-carousel/owl-carousel.css') }}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{{ asset('/assets/css/style.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('/assets/css/colors/blue.css') }}">
+
+</head>
+{% endblock %}
+
+{% block header %}
+  <div class="topbar clearfix">
     <div class="container">
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+      <div class="col-lg-12 text-right">
+        <div class="social_buttons">
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end topbar -->
+
+  <header class="header">
+    <div class="container">
+      <div class="site-header clearfix">
+        <div class="col-lg-3 col-md-3 col-sm-12 title-area">
+          <div class="site-title" id="title">
+            <a href="/" title="">
+              <h4>Keman<span>Racing !</span></h4>
+            </a>
+          </div>
+        </div>
+        <!-- title area -->
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <div id="nav" class="right">
+            <div class="container clearfix">
+              <ul id="jetmenu" class="jetmenu blue">
+                <li class="active"><a href="{{ asset('/') }}">Acceuil</a>
+                </li>
+                <li><a href="/">Nous connaître</a>
+                  <ul class="dropdown">
+                    <li><a href="{{ asset('/qsn') }}">Qui sommes-nous ?</a></li>
+                    <li><a href="{{ asset('/services') }}">Nos services</a></li>
+                    <li><a href="{{ asset('/equipe') }}">Notre équipe</a></li>
+                    <li><a href="{{ asset('/temoignages') }}">Leurs témoignages</a></li>
+                    <li><a href="{{ asset('/faq') }}">FAQ</a></li>
+                    <li><a href="{{ asset('/contact') }}">Nous Contacter</a></li>
+                  </ul>
+                </li>
+                <li><a href="{{ asset('#') }}">Nos circuits</a>
+                  <ul class="dropdown">
+                    <li><a href="{{ asset('/circuits') }}">Choisir votre circuit</a></li>
+                    <li><a href="gallery-portfolio.html">Gallerie</a></li>
+                  </ul>
+                </li>
+                <li><a href="{{ asset('#') }}">Nos voitures</a>
+                  <ul class="dropdown">
+                    <li><a href="{{ asset('/brands') }}">Choisir votre voiture</a></li>
+                    <li><a href="gallery-portfolio.html">Gallerie</a></li>
+                  </ul>
+                <!-- <li><a href="{{ asset('/#') }}">Votre réservation</a> A METTRE UNE FOIS L'USER CONNECTÉ.
+                  <ul class="dropdown">
+                    <li><a href="{{ asset('/circuits') }}">Voir nos circuits</a></li>
+                    <li><a href="{{ asset('/produit seul') }}">Single Product</a></li>
+                    <li><a href="{{ asset('/checkout') }}">Votre panier</a></li>
+                    <li><a href="{{ asset('/account') }}">Account Page</a></li>
+                    <li><a href="{{ asset('/support') }}">Support Center</a></li>
+                  </ul>
+                </li> -->
+                </li>
+                <li><a href="{{ asset('/#') }}">Votre compte</a>
+                  <ul class="dropdown">
+                    <li><a href="{{ asset('/login') }}">Connexion</a></li>
+                    <li><a href="{{ asset('/register') }}">Inscription</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+{% endblock %}
+{% block body %}
+
+{% endblock %}
+
+{% block footer %}
+  <footer class="footer">
+    <div class="container">
+      <div class="widget col-lg-3 col-md-3 col-sm-12">
+        <h4 class="title">A propos de nous</h4>
+        <p>Keman Racing ! est une entreprise fictive dans le but d'un projet noté. Rien de tout ça est vrai !</p>
+        <a class="button small" href="{{ asset('/#') }}">Lire la suite</a>
+      </div>
+      <!-- end widget -->
+      <div class="widget col-lg-3 col-md-3 col-sm-12">
+        <h4 class="title">Dernières nouveautés</h4>
+        <ul class="recent_posts">
+          <li>
+            <a href="{{ asset('/home1') }}#">
+            <img src="img/recent_post_01.png" alt="" />Bientôt une nouvelle application mobile !</a>
+            <a class="readmore" href="{{ asset('/#') }}">En savoir plus</a>
+          </li>
+          <li>
+            <a href="{{ asset('/home1') }}#">
+            <img src="img/recent_post_02.png" alt="" />Bientôt de nouveaux modèles !</a>
+            <a class="readmore" href="{{ asset('/#') }}">En savoir plus</a>
+          </li>
+        </ul>
+        <!-- recent posts -->
+      </div>
+      <!-- end widget -->
+      <div class="widget col-lg-3 col-md-3 col-sm-12">
+        <h4 class="title">Restons en contact</h4>
+        <ul class="contact_details">
+          <li><i class="fa fa-envelope-o"></i>info@kemanracing.com</li>
+          <li><i class="fa fa-phone-square"></i>01 12 23 45 56</li>
+          <li><i class="fa fa-home"></i> Siège social, 1 Rue Pierre Louis Guyard, 78360 Montesson</li>
+          <li><a href="#"><i class="fa fa-map-marker"></i> Voir sur Google Maps</a></li>
+        </ul>
+        <!-- contact_details -->
+      </div>
+      <!-- end widget -->
+      <div class="widget col-lg-3 col-md-3 col-sm-12">
+        <h4 class="title">Flickr Stream</h4>
+        <ul class="flickr">
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_01.jpg"></a></li>
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_02.jpg"></a></li>
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_03.jpg"></a></li>
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_04.jpg"></a></li>
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_05.jpg"></a></li>
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_06.jpg"></a></li>
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_07.jpg"></a></li>
+          <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_08.jpg"></a></li>
+        </ul>
+      </div>
+      <!-- end widget -->
+    </div>
+    <!-- end container -->
+
+    <div class="copyrights">
+      <div class="container">
+        <div class="col-lg-6 col-md-6 col-sm-12 columns footer-left">
+          <p>Copyright © 2018 - Tous droits réservés.</p>
+          <div class="credits">
+            <!--
+              You are NOT allowed to delete the credit link to TemplateMag with free version.
+              You can delete the credit link only if you bought the pro version.
+              Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/maxibiz-bootstrap-business-template/
+              Licensing information: https://templatemag.com/license/
+            -->
+            Crée pour un examen à l'<a href="{{ asset('/https://www.ifocop.fr/') }}" target="blank">IFOCOP</a>, PARIS.
+          </div>
+        </div>
+        <!-- end widget -->
+        <div class="col-lg-6 col-md-6 col-sm-12 columns text-right">
+          <div class="footer-menu right">
+            <ul class="menu">
+              <li><a href="{{ asset('/index') }}">Home</a></li>
+              <li><a href="{{ asset('/about') }}">A propos</a></li>
+              <li><a href="{{ asset('/#') }}">Plan du site</a></li>
+              <li><a href="{{ asset('/#') }}">CGV</a></li>
+              <li><a href="{{ asset('/contact') }}">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end large-6 -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end copyrights -->
+  </footer>
+{% endblock %}
+
+{% block javascripts %}
+  <div class="dmtop">Scroll to Top</div>
+
+  <!-- JavaScript Libraries -->
+  <script src="{{ asset('/assets/lib/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('/assets/lib/bootstrap/js/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('/assets/lib/php-mail-form/validate.js') }}"></script>
+  <script src="{{ asset('/assets/lib/prettyphoto/js/prettyphoto.js') }}"></script>
+  <script src="{{ asset('/assets/lib/isotope/isotope.min.js') }}"></script>
+  <script src="{{ asset('/assets/lib/hover/hoverdir.js') }}"></script>
+  <script src="{{ asset('/assets/lib/hover/hoverex.min.js') }}"></script>
+  <script src="{{ asset('/assets/lib/unveil-effects/unveil-effects.js') }}"></script>
+  <script src="{{ asset('/assets/lib/owl-carousel/owl-carousel.js') }}"></script>
+  <script src="{{ asset('/assets/lib/jetmenu/jetmenu.js') }}"></script>
+  <script src="{{ asset('/assets/lib/animate-enhanced/animate-enhanced.min.js') }}"></script>
+  <script src="{{ asset('/assets/lib/jigowatt/jigowatt.js') }}"></script>
+  <script src="{{ asset('/assets/lib/easypiechart/easypiechart.min.js') }}"></script>
+
+  <script src="{{ asset('/assets/js/main.js') }}"></script>
+{% endblock %}
     </body>
 </html>

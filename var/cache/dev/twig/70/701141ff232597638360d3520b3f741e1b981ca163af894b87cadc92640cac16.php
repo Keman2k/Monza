@@ -55,7 +55,7 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
 
     }
 
-    // line 5
+    // line 4
     public function block_body($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -64,50 +64,323 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
-        echo "
-<section class=\"voitures\">
-\t<article>
-\t\t<h2>Ferrari</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Ferrari\"><img src=\"/assets/img/logoFerrariOpt.jpg\" alt=\"Ferrari\"></a>
-\t\t\t<p>Les Ferrari ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Ferrari\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
+        // line 5
+        echo "  <section id=\"intro\">
+    <div class=\"container\">
+      <div class=\"ror\">
+        <div class=\"col-md-8 col-md-offset-2\">
+          <h1>Bienvenue sur Keman Racing !</h1>
+          <p>Vous avez toujours rêvé de conduire les plus belles voitures sur les plus beaux circuits ? Vous êtes au bon endroit !</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-\t\t<article>
-\t\t<h2>Lamborghini</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Lamborghini\"><img src=\"/assets/img/logoLamborghiniOpt.jpg\" alt=\"Lamborghini\"></a>
-\t\t\t<p>Les Lamborghini ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Lamborghini\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
+  <section class=\"section1\">
+    <div class=\"container\">
+      <div class=\"col-lg-4 col-md-4 col-sm-4\">
+        <div class=\"servicebox text-center\">
+          <div class=\"service-icon\">
+            <div class=\"dm-icon-effect-1\" data-effect=\"slide-left\">
+              <a href=\"/circuits\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/new-zealand-south-island.png\"> </a>
+            </div>
+            <div class=\"servicetitle\">
+              <h4>Les plus beaux circuits !</h4>
+              <hr>
+            </div>
+            <p>Vous aurez la chance de rouler sur les plus beaux tracés ! Que ce soit Monza, Imola, Brands Hatch, Spa Francorchamps, Donington, Fiorano, Nordschleife, Paul Ricard, et bien d'autres !</p>
+          </div>
+        </div>
+      </div>
 
-\t<article>
-\t\t<h2>Pagani</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Pagani\"><img src=\"/assets/img/logoPaganiOpt.jpg\" alt=\"Pagani\"></a>
-\t\t\t<p>Les Pagani ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Pagani\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
+      <div class=\"col-lg-4 col-md-4 col-sm-4\">
+        <div class=\"servicebox text-center\">
+          <div class=\"service-icon\">
+            <div class=\"dm-icon-effect-1\" data-effect=\"slide-bottom\">
+              <a href=\"/brands\" class=\"\"> <img src=\"https://img.icons8.com/color/100/000000/f1-race-car-side-view.png\"> </a>
+            </div>
+            <div class=\"servicetitle\">
+              <h4>Les plus belles voitures !</h4>
+              <hr>
+            </div>
+            <p>Prenez place au bord d'une monoplace Ferrari, d'une GT3 Lamborghini de rêve et des plus puissantes véhicules comme la Koenigsegg one:1 ! </p>
+          </div>
+        </div>
+      </div>
 
-\t<article>
-\t\t<h2>Masérati</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Maserati\"><img src=\"/assets/img/logoMaseratiOpt.jpg\" alt=\"Maserati\"></a>
-\t\t\t<p>Les Pagani ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Masérati\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
-\t
-</section>
+      <div class=\"col-lg-4 col-md-4 col-sm-4\">
+        <div class=\"servicebox text-center\">
+          <div class=\"service-icon\">
+            <div class=\"dm-icon-effect-1\" data-effect=\"slide-right\">
+              <a href=\"/tuteurs\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/headset-filled.png\"> </a>
+            </div>
+            <div class=\"servicetitle\">
+              <h4>Des tuteurs professionnels !</h4>
+              <hr>
+            </div>
+            <p>Notre équipe composée de professionnels passionés seront là pour vous aider lors des briefings à mieux dompter ces machines impressionnantes ! Ils connaissent leurs tracés sur le bouts des doigts ! </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=\"section5\">
+    <div class=\"container\">
+      <div class=\"col-lg-6 col-md-6 col-sm-12 columns\">
+        <div class=\"widget\" data-effect=\"slide-left\">
+          <img src=\"img/slider_02.png\" alt=\"\">
+        </div>
+      </div>
+      <div class=\"col-lg-6 col-md-6 col-sm-12 columns\">
+        <div class=\"widget clearfix\">
+          <div class=\"services_lists\">
+
+            <div class=\"services_lists_boxes clearfix\">
+              <div class=\"col-lg-3 col-md-3 col-sm-12\">
+                <div class=\"services_lists_boxes_icon\" data-effect=\"slide-bottom\">
+                  <a href=\"/users\" class=\"\"> <i class=\"active dm-icon-medium fa fa-key fa-2x\"></i> </a>
+                </div>
+              </div>
+              <div class=\"col-lg-9 col-md-9 col-sm-9\">
+                <div class=\"servicetitle\">
+                  <h4>Créer votre compte</h4>
+                  <hr>
+                </div>
+                <p>Commencez par vous inscrire, remplissez le formulaire, validez le lien que vous recevrez par mail </p>
+              </div>
+            </div>
+
+            <div class=\"services_lists_boxes clearfix\">
+              <div class=\"col-lg-3 col-md-3 col-sm-12\">
+                <div class=\"services_lists_boxes_icon\" data-effect=\"slide-bottom\">
+                  <a href=\"#\" class=\"\"> <i class=\"active dm-icon-medium fa fa-car fa-2x\"></i> </a>
+                </div>
+              </div>
+              <div class=\"col-lg-9 col-md-9 col-sm-9\">
+                <div class=\"servicetitle\">
+                  <h4>Choisissez votre tracé et votre véhicule</h4>
+                  <hr>
+                </div>
+                <p>Vous trouverez votre choix parmi notre large gamme de circuits a travers l'Europe (principalement Italie, Angleterre, France et Allemagne). Nous vous proposons également une grande gamme de marques (Ferrari, Mercedes-Benz, Porsche, Lamborghini, Pagani, etc...)</p>
+              </div>
+            </div>
+
+
+            <div class=\"services_lists_boxes clearfix\">
+              <div class=\"col-lg-3 col-md-3 col-sm-12\">
+                <div class=\"services_lists_boxes_icon_none\" data-effect=\"slide-bottom\">
+                  <a href=\"#\" class=\"\"> <i class=\"active dm-icon-medium fa fa-dollar fa-2x\"></i> </a>
+                </div>
+              </div>
+              <div class=\"col-lg-9 col-md-9 col-sm-9\">
+                <div class=\"servicetitle\">
+                  <h4>Confirmation de la date et de la réservation</h4>
+                  <hr>
+                </div>
+                <p>Une fois la date choisie et la réservation confirmée, vous n'aurez plus qu'à vous rendre sur la piste !</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=\"section4 text-center\">
+    <div class=\"general-title\">
+      <h3>Nos plus beaux modèles !</h3>
+      <hr>
+    </div>
+    <div class=\"portfolio-wrapper\">
+      <div id=\"owl-demo\" class=\"owl-carousel\">
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F40/F40_1.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F40/F40_1.jpg\" data-src=\"img/voitures/Ferrari/F40/F40_1.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F430/F430_5.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F430/F430_5.jpg\" data-src=\"img/voitures/Ferrari/F430/F430_5.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a href=\"single-portfolio-1.html\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" data-src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a href=\"img/voitures/Koenigsegg/One 1/4.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/One 1/4.jpg\" data-src=\"img/voitures/Koenigsegg/One 1/4.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Koenigsegg/Agera RS/2.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" data-src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\">Pagani_Zonda_Revolucion_6.jpg
+            <img class=\"lazyOwl\" src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" data-src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" data-src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <a class=\"button large\" href=\"home3.html#\">Voir toutes les marques</a>
+  </section>
+
+  <section class=\"section2\">
+    <div class=\"container\">
+      <div class=\"message text-center\">
+        <h2 class=\"big-title\">Donnez <span> votre </span> avis !</h2>
+        <p class=\"small-title\">Dites nous tout !</p>
+        <a class=\"button large\" href=\"#\">A propos des formateurs</a> <a class=\" dmbutton large\" href=\"#\">A propos de votre expérience</a>
+      </div>
+    </div>
+  </section>
+
+  <section class=\"section1 text-center\">
+    <div class=\"container\">
+      <div class=\"general-title\">
+        <h3>Nos forfaits</h3>
+        <hr>
+      </div>
+      <div class=\"row\">
+        <div class=\"col-lg-4 col-md-4 col-sm-4 col-xs-12\" data-effect=\"slide-bottom\">
+          <div class=\"custom-box\">
+            <div class=\"servicetitle\">
+              <h4>Novice</h4>
+              <hr>
+            </div>
+            <div class=\"icn-main-container\">
+              <span class=\"icn-container\">30 €</span>
+            </div>
+            <p>Pour ceux qui ont envie d'apprendre à conduire sur circuit à un tarif abordable</p>
+            <ul class=\"pricing\">
+              <li>1 heure de briefing</li>
+              <li>1 tour vidéo du circuit</li>
+              <li>2 tours de chauffe avec tuteur</li>
+              <li>5 tours seuls ou 7 minutes</li>
+              <li>Montage vidéo (caméra embarquée) payant</li>
+              <li>Combinaison, casque et gants fournis</li>
+              <li>Délivrance d'un certificat de réussite niveau Novice</li>
+            </ul>
+            <a class=\"btn btn-primary\" href=\"#\">Je valide</a>
+          </div>
+        </div>
+
+        <div class=\"col-lg-4 col-md-4 col-sm-4 col-xs-12\" data-effect=\"slide-bottom\">
+          <div class=\"custom-box\">
+            <div class=\"servicetitle\">
+              <h4>Amateur</h4>
+              <hr>
+            </div>
+            <div class=\"icn-main-container\">
+              <span class=\"icn-container\">60 €</span>
+            </div>
+            <p>Pour ceux qui ont déjà roulé sur circuit et qui veulent repousser leurs limites</p>
+            <ul class=\"pricing\">
+              <li>1 heure de briefing</li>
+              <li>1 tour vidéo du circuit</li>
+              <li>1 tour de chauffe avec tuteur</li>
+              <li>10 tours seuls ou 15 minutes</li>
+              <li>Montage vidéo (caméra embarquée) offert.</li>
+              <li>Combinaison, casque et gants fournis</li>
+              <li>Délivrance d'un certificat de réussite niveau Amateur</li>
+            </ul>
+            <a class=\"btn btn-primary\" href=\"#\">Je valide</a>
+          </div>
+        </div>
+
+        <div class=\"col-lg-4 col-md-4 col-sm-4 col-xs-12\" data-effect=\"slide-bottom\">
+          <div class=\"custom-box\">
+            <div class=\"servicetitle\">
+              <h4>Expert</h4>
+              <hr>
+            </div>
+            <div class=\"icn-main-container\">
+              <span class=\"icn-container\">100 €</span>
+            </div>
+            <p>Pour ceux qui ont l'habitude de rouler sur circuit et ceux qui se veulent se mesurer aux meilleurs</p>
+            <ul class=\"pricing\">
+              <li>1 heure de briefing</li>
+              <li>1 tour vidéo du circuit</li>
+              <li>1 tour de chauffe avec tuteur</li>
+              <li>20 tours seuls ou 30 minutes</li>
+              <li>Montage vidéo (caméra embarquée) offert.</li>
+              <li>Combinaison, casque et gants fournis</li>
+              <li>Délivrance d'un certificat de réussite niveau Expert</li>
+            </ul>
+            <a class=\"btn btn-primary\" href=\"#\">Je valide</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class=\"section3\">
+    <div class=\"container withpadding\">
+      <div class=\"message\">
+        <div class=\"col-lg-9 col-md-9 col-sm-9\">
+          <h3>Grab the attention of your customers!</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\"s standard dummy text ever since the 1500s..</p>
+        </div>
+        <div class=\"col-lg-3 col-md-3 col-sm-12\">
+          <a class=\"dmbutton button large pull-right\" href=\"#\"><i class=\"fa fa-download\"></i> GET A QUOTE</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 ";
         
@@ -130,7 +403,7 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
 
     public function getDebugInfo()
     {
-        return array (  68 => 6,  59 => 5,  41 => 3,  11 => 1,);
+        return array (  68 => 5,  59 => 4,  41 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -146,52 +419,324 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         return new Twig_Source("{% extends 'base.html.twig' %}
 
 {% block title %} Keman Racing{% endblock %}
-
 {% block body %}
+  <section id=\"intro\">
+    <div class=\"container\">
+      <div class=\"ror\">
+        <div class=\"col-md-8 col-md-offset-2\">
+          <h1>Bienvenue sur Keman Racing !</h1>
+          <p>Vous avez toujours rêvé de conduire les plus belles voitures sur les plus beaux circuits ? Vous êtes au bon endroit !</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class=\"voitures\">
-\t<article>
-\t\t<h2>Ferrari</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Ferrari\"><img src=\"/assets/img/logoFerrariOpt.jpg\" alt=\"Ferrari\"></a>
-\t\t\t<p>Les Ferrari ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Ferrari\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
+  <section class=\"section1\">
+    <div class=\"container\">
+      <div class=\"col-lg-4 col-md-4 col-sm-4\">
+        <div class=\"servicebox text-center\">
+          <div class=\"service-icon\">
+            <div class=\"dm-icon-effect-1\" data-effect=\"slide-left\">
+              <a href=\"/circuits\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/new-zealand-south-island.png\"> </a>
+            </div>
+            <div class=\"servicetitle\">
+              <h4>Les plus beaux circuits !</h4>
+              <hr>
+            </div>
+            <p>Vous aurez la chance de rouler sur les plus beaux tracés ! Que ce soit Monza, Imola, Brands Hatch, Spa Francorchamps, Donington, Fiorano, Nordschleife, Paul Ricard, et bien d'autres !</p>
+          </div>
+        </div>
+      </div>
 
-\t\t<article>
-\t\t<h2>Lamborghini</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Lamborghini\"><img src=\"/assets/img/logoLamborghiniOpt.jpg\" alt=\"Lamborghini\"></a>
-\t\t\t<p>Les Lamborghini ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Lamborghini\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
+      <div class=\"col-lg-4 col-md-4 col-sm-4\">
+        <div class=\"servicebox text-center\">
+          <div class=\"service-icon\">
+            <div class=\"dm-icon-effect-1\" data-effect=\"slide-bottom\">
+              <a href=\"/brands\" class=\"\"> <img src=\"https://img.icons8.com/color/100/000000/f1-race-car-side-view.png\"> </a>
+            </div>
+            <div class=\"servicetitle\">
+              <h4>Les plus belles voitures !</h4>
+              <hr>
+            </div>
+            <p>Prenez place au bord d'une monoplace Ferrari, d'une GT3 Lamborghini de rêve et des plus puissantes véhicules comme la Koenigsegg one:1 ! </p>
+          </div>
+        </div>
+      </div>
 
-\t<article>
-\t\t<h2>Pagani</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Pagani\"><img src=\"/assets/img/logoPaganiOpt.jpg\" alt=\"Pagani\"></a>
-\t\t\t<p>Les Pagani ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Pagani\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
+      <div class=\"col-lg-4 col-md-4 col-sm-4\">
+        <div class=\"servicebox text-center\">
+          <div class=\"service-icon\">
+            <div class=\"dm-icon-effect-1\" data-effect=\"slide-right\">
+              <a href=\"/tuteurs\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/headset-filled.png\"> </a>
+            </div>
+            <div class=\"servicetitle\">
+              <h4>Des tuteurs professionnels !</h4>
+              <hr>
+            </div>
+            <p>Notre équipe composée de professionnels passionés seront là pour vous aider lors des briefings à mieux dompter ces machines impressionnantes ! Ils connaissent leurs tracés sur le bouts des doigts ! </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-\t<article>
-\t\t<h2>Masérati</h2>
-\t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
-\t\t<div class=\"content\">
-\t\t\t<a href=\"/Maserati\"><img src=\"/assets/img/logoMaseratiOpt.jpg\" alt=\"Maserati\"></a>
-\t\t\t<p>Les Pagani ont toujours étés superbes.</p>
-\t\t\t<a href=\"/Masérati\" class=\"btn btn-primary\">Lire la suite</a>
-\t\t</div>
-\t</article>
-\t
-</section>
+  <section class=\"section5\">
+    <div class=\"container\">
+      <div class=\"col-lg-6 col-md-6 col-sm-12 columns\">
+        <div class=\"widget\" data-effect=\"slide-left\">
+          <img src=\"img/slider_02.png\" alt=\"\">
+        </div>
+      </div>
+      <div class=\"col-lg-6 col-md-6 col-sm-12 columns\">
+        <div class=\"widget clearfix\">
+          <div class=\"services_lists\">
 
-{% endblock %}", "@Monza/Default/index.html.twig", "C:\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
+            <div class=\"services_lists_boxes clearfix\">
+              <div class=\"col-lg-3 col-md-3 col-sm-12\">
+                <div class=\"services_lists_boxes_icon\" data-effect=\"slide-bottom\">
+                  <a href=\"/users\" class=\"\"> <i class=\"active dm-icon-medium fa fa-key fa-2x\"></i> </a>
+                </div>
+              </div>
+              <div class=\"col-lg-9 col-md-9 col-sm-9\">
+                <div class=\"servicetitle\">
+                  <h4>Créer votre compte</h4>
+                  <hr>
+                </div>
+                <p>Commencez par vous inscrire, remplissez le formulaire, validez le lien que vous recevrez par mail </p>
+              </div>
+            </div>
+
+            <div class=\"services_lists_boxes clearfix\">
+              <div class=\"col-lg-3 col-md-3 col-sm-12\">
+                <div class=\"services_lists_boxes_icon\" data-effect=\"slide-bottom\">
+                  <a href=\"#\" class=\"\"> <i class=\"active dm-icon-medium fa fa-car fa-2x\"></i> </a>
+                </div>
+              </div>
+              <div class=\"col-lg-9 col-md-9 col-sm-9\">
+                <div class=\"servicetitle\">
+                  <h4>Choisissez votre tracé et votre véhicule</h4>
+                  <hr>
+                </div>
+                <p>Vous trouverez votre choix parmi notre large gamme de circuits a travers l'Europe (principalement Italie, Angleterre, France et Allemagne). Nous vous proposons également une grande gamme de marques (Ferrari, Mercedes-Benz, Porsche, Lamborghini, Pagani, etc...)</p>
+              </div>
+            </div>
+
+
+            <div class=\"services_lists_boxes clearfix\">
+              <div class=\"col-lg-3 col-md-3 col-sm-12\">
+                <div class=\"services_lists_boxes_icon_none\" data-effect=\"slide-bottom\">
+                  <a href=\"#\" class=\"\"> <i class=\"active dm-icon-medium fa fa-dollar fa-2x\"></i> </a>
+                </div>
+              </div>
+              <div class=\"col-lg-9 col-md-9 col-sm-9\">
+                <div class=\"servicetitle\">
+                  <h4>Confirmation de la date et de la réservation</h4>
+                  <hr>
+                </div>
+                <p>Une fois la date choisie et la réservation confirmée, vous n'aurez plus qu'à vous rendre sur la piste !</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=\"section4 text-center\">
+    <div class=\"general-title\">
+      <h3>Nos plus beaux modèles !</h3>
+      <hr>
+    </div>
+    <div class=\"portfolio-wrapper\">
+      <div id=\"owl-demo\" class=\"owl-carousel\">
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F40/F40_1.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F40/F40_1.jpg\" data-src=\"img/voitures/Ferrari/F40/F40_1.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F430/F430_5.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F430/F430_5.jpg\" data-src=\"img/voitures/Ferrari/F430/F430_5.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a href=\"single-portfolio-1.html\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" data-src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a href=\"img/voitures/Koenigsegg/One 1/4.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/One 1/4.jpg\" data-src=\"img/voitures/Koenigsegg/One 1/4.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Koenigsegg/Agera RS/2.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" data-src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\">Pagani_Zonda_Revolucion_6.jpg
+            <img class=\"lazyOwl\" src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" data-src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+        <div class=\"item\">
+          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\">
+            <img class=\"lazyOwl\" src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" data-src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" alt=\"\">
+            <div>
+                  <small>lien cliquable vers la fiche produit.</small>
+                  <span>Nom de la voiture ou du tracé</span>
+                  <i class=\"fa fa-search\"></i>
+              </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <a class=\"button large\" href=\"home3.html#\">Voir toutes les marques</a>
+  </section>
+
+  <section class=\"section2\">
+    <div class=\"container\">
+      <div class=\"message text-center\">
+        <h2 class=\"big-title\">Donnez <span> votre </span> avis !</h2>
+        <p class=\"small-title\">Dites nous tout !</p>
+        <a class=\"button large\" href=\"#\">A propos des formateurs</a> <a class=\" dmbutton large\" href=\"#\">A propos de votre expérience</a>
+      </div>
+    </div>
+  </section>
+
+  <section class=\"section1 text-center\">
+    <div class=\"container\">
+      <div class=\"general-title\">
+        <h3>Nos forfaits</h3>
+        <hr>
+      </div>
+      <div class=\"row\">
+        <div class=\"col-lg-4 col-md-4 col-sm-4 col-xs-12\" data-effect=\"slide-bottom\">
+          <div class=\"custom-box\">
+            <div class=\"servicetitle\">
+              <h4>Novice</h4>
+              <hr>
+            </div>
+            <div class=\"icn-main-container\">
+              <span class=\"icn-container\">30 €</span>
+            </div>
+            <p>Pour ceux qui ont envie d'apprendre à conduire sur circuit à un tarif abordable</p>
+            <ul class=\"pricing\">
+              <li>1 heure de briefing</li>
+              <li>1 tour vidéo du circuit</li>
+              <li>2 tours de chauffe avec tuteur</li>
+              <li>5 tours seuls ou 7 minutes</li>
+              <li>Montage vidéo (caméra embarquée) payant</li>
+              <li>Combinaison, casque et gants fournis</li>
+              <li>Délivrance d'un certificat de réussite niveau Novice</li>
+            </ul>
+            <a class=\"btn btn-primary\" href=\"#\">Je valide</a>
+          </div>
+        </div>
+
+        <div class=\"col-lg-4 col-md-4 col-sm-4 col-xs-12\" data-effect=\"slide-bottom\">
+          <div class=\"custom-box\">
+            <div class=\"servicetitle\">
+              <h4>Amateur</h4>
+              <hr>
+            </div>
+            <div class=\"icn-main-container\">
+              <span class=\"icn-container\">60 €</span>
+            </div>
+            <p>Pour ceux qui ont déjà roulé sur circuit et qui veulent repousser leurs limites</p>
+            <ul class=\"pricing\">
+              <li>1 heure de briefing</li>
+              <li>1 tour vidéo du circuit</li>
+              <li>1 tour de chauffe avec tuteur</li>
+              <li>10 tours seuls ou 15 minutes</li>
+              <li>Montage vidéo (caméra embarquée) offert.</li>
+              <li>Combinaison, casque et gants fournis</li>
+              <li>Délivrance d'un certificat de réussite niveau Amateur</li>
+            </ul>
+            <a class=\"btn btn-primary\" href=\"#\">Je valide</a>
+          </div>
+        </div>
+
+        <div class=\"col-lg-4 col-md-4 col-sm-4 col-xs-12\" data-effect=\"slide-bottom\">
+          <div class=\"custom-box\">
+            <div class=\"servicetitle\">
+              <h4>Expert</h4>
+              <hr>
+            </div>
+            <div class=\"icn-main-container\">
+              <span class=\"icn-container\">100 €</span>
+            </div>
+            <p>Pour ceux qui ont l'habitude de rouler sur circuit et ceux qui se veulent se mesurer aux meilleurs</p>
+            <ul class=\"pricing\">
+              <li>1 heure de briefing</li>
+              <li>1 tour vidéo du circuit</li>
+              <li>1 tour de chauffe avec tuteur</li>
+              <li>20 tours seuls ou 30 minutes</li>
+              <li>Montage vidéo (caméra embarquée) offert.</li>
+              <li>Combinaison, casque et gants fournis</li>
+              <li>Délivrance d'un certificat de réussite niveau Expert</li>
+            </ul>
+            <a class=\"btn btn-primary\" href=\"#\">Je valide</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class=\"section3\">
+    <div class=\"container withpadding\">
+      <div class=\"message\">
+        <div class=\"col-lg-9 col-md-9 col-sm-9\">
+          <h3>Grab the attention of your customers!</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\"s standard dummy text ever since the 1500s..</p>
+        </div>
+        <div class=\"col-lg-3 col-md-3 col-sm-12\">
+          <a class=\"dmbutton button large pull-right\" href=\"#\"><i class=\"fa fa-download\"></i> GET A QUOTE</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}", "@Monza/Default/index.html.twig", "C:\\Users\\mbouantoun\\Desktop\\MonzaSymfony-20181210T081511Z-001\\MonzaSymfony\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
     }
 }

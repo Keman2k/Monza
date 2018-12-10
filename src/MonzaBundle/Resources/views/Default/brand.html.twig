@@ -2,15 +2,15 @@
 
 {% block body %}
 
-<h3>Les modèles {{brand.getBrandName()}} que nous vous proposont : </h3>
+<h3>Les modèles {{brand.getBrandName() | raw }} que nous vous proposont : </h3>
 
 
-<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} !</h4>
+<h4>La {{brand.getBrandName() | raw }} {{brand.getBrandModel | raw }}, {{brand.getBrandTitle | raw }} !</h4>
 
-{{brand.getBrandHistory}}, <img src="{{brand.getBrandImage}}">
+{{brand.getBrandHistory | raw }}, <img src="{{brand.getBrandImage | raw }}">
 
 
-
+<button>Valider</button>
 
 
 {% endblock %}

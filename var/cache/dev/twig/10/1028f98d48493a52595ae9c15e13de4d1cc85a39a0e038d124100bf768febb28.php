@@ -49,28 +49,28 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
         echo "
 <h3>Les modèles ";
         // line 5
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandName", array(), "method"), "html", null, true);
+        echo $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandName", array(), "method");
         echo " que nous vous proposont : </h3>
 
 
 <h4>La ";
         // line 8
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandName", array(), "method"), "html", null, true);
+        echo $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandName", array(), "method");
         echo " ";
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandModel", array()), "html", null, true);
+        echo $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandModel", array());
         echo ", ";
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandTitle", array()), "html", null, true);
+        echo $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandTitle", array());
         echo " !</h4>
 
 ";
         // line 10
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandHistory", array()), "html", null, true);
+        echo $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandHistory", array());
         echo ", <img src=\"";
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandImage", array()), "html", null, true);
+        echo $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandImage", array());
         echo "\">
 
 
-
+<button>Valider</button>
 
 
 ";
@@ -111,17 +111,17 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
 
 {% block body %}
 
-<h3>Les modèles {{brand.getBrandName()}} que nous vous proposont : </h3>
+<h3>Les modèles {{brand.getBrandName() | raw }} que nous vous proposont : </h3>
 
 
-<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} !</h4>
+<h4>La {{brand.getBrandName() | raw }} {{brand.getBrandModel | raw }}, {{brand.getBrandTitle | raw }} !</h4>
 
-{{brand.getBrandHistory}}, <img src=\"{{brand.getBrandImage}}\">
-
-
+{{brand.getBrandHistory | raw }}, <img src=\"{{brand.getBrandImage | raw }}\">
 
 
+<button>Valider</button>
 
-{% endblock %}", "@Monza/Default/brand.html.twig", "H:\\Java\\workspaces\\monza\\src\\MonzaBundle\\Resources\\views\\Default\\brand.html.twig");
+
+{% endblock %}", "@Monza/Default/brand.html.twig", "C:\\Users\\mbouantoun\\Desktop\\MonzaSymfony-20181210T081511Z-001\\MonzaSymfony\\src\\MonzaBundle\\Resources\\views\\Default\\brand.html.twig");
     }
 }

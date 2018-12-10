@@ -59,7 +59,7 @@ class __TwigTemplate_5db6ecb57cbf1010d0776b0a7b5d0aad4583f39961c8fe07c52fbf8c544
             echo twig_escape_filter($this->env, $this->getAttribute($context["brand"], "getBrandModel", array()), "html", null, true);
             echo ", ";
             echo twig_escape_filter($this->env, $this->getAttribute($context["brand"], "getBrandTitle", array()), "html", null, true);
-            echo " !</h4>
+            echo "</h4>
             ";
         }
         $_parent = $context['_parent'];
@@ -107,10 +107,10 @@ class __TwigTemplate_5db6ecb57cbf1010d0776b0a7b5d0aad4583f39961c8fe07c52fbf8c544
 {% block body %}
 
             {% for brand in brands %}
-\t\t\t\t<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} !</h4>
+\t\t\t\t<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}}</h4>
             {% endfor %}
 
 
-{% endblock %}", "@Monza/Default/brands.html.twig", "H:\\Java\\workspaces\\monza\\src\\MonzaBundle\\Resources\\views\\Default\\brands.html.twig");
+{% endblock %}", "@Monza/Default/brands.html.twig", "C:\\Users\\mbouantoun\\Desktop\\MonzaSymfony-20181210T081511Z-001\\MonzaSymfony\\src\\MonzaBundle\\Resources\\views\\Default\\brands.html.twig");
     }
 }
