@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<h4>{{ circuit.getCircuitName() | raw }}</h4>
+
+{{ circuit.getCircuitDescription | raw }},<img src="{{ circuit.getCircuitImage | raw }}">
+
+
+<button>Je choisis la voiture</button>
+
+
+{% endblock %}

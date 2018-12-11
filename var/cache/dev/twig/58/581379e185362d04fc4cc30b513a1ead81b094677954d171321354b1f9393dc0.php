@@ -115,6 +115,6 @@ class __TwigTemplate_66e8b95cf04398feb48bb31f1a1b0001bb399f9879ae3d3b4c0e80f7633
     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>
     <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js\" integrity=\"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy\" crossorigin=\"anonymous\"></script>
 </footer>
-</html>", "inc/footer.inc.html", "C:\\Monza\\app\\Resources\\views\\inc\\footer.inc.html");
+</html>", "inc/footer.inc.html", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\inc\\footer.inc.html");
     }
 }

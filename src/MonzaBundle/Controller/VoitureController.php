@@ -8,14 +8,8 @@ use Doctrine\ORM\EntityManagerInterface;
 
 class VoitureController extends Controller
 {
-    public function ferrariAction()
-    {
-        return $this->render('@Monza/Default/ferrari.html.twig');
-    }
-
      public function brandsAction()
     {
-
 
 # php bin/console doctrine:generate:entity
 # php bin/console doctrine:generate:entities AcmeMyBundle:Customer
@@ -50,43 +44,4 @@ class VoitureController extends Controller
         return $this->render('@Monza/Default/brand.html.twig', array('brand' => $brand));
     }
 
-    public function F40Action()
-    {
-    	return $this->render('@Monza/Default/f40.html.twig');
-    }
-
-    public function F430Action()
-    {
-    	return $this->render('@Monza/Default/f430.html.twig');
-    }
-
-    public function LaferrariAction()
-    {
-    	return $this->render('@Monza/Default/laferrari.html.twig');
-    }
-
-    public function LamborghiniAction()
-    {
-    	return $this->render('@Monza/Default/lamborghini.html.twig');
-    }
-
-    public function GallardoAction()
-    {
-    	return $this->render('@Monza/Default/gallardo.html.twig');
-    }
-
-    public function MurcielagoAction()
-    {
-    	return $this->render('@Monza/Default/murcielago.html.twig');
-    }
-
-    public function PaganiAction()
-    {
-    	return $this->render('@Monza/Default/pagani.html.twig');
-    }
-
-    public function MaseratiAction()
-    {
-    	return $this->render('@Monza/Default/maserati.html.twig');
-    }
 }

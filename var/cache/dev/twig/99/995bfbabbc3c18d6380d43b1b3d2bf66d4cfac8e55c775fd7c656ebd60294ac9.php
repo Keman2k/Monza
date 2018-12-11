@@ -57,6 +57,6 @@ class __TwigTemplate_7ce82bfa056c962291e9075ee9830f867391bbd84bc318336fbe1a51d22
         return new Twig_Source("\$(\".single-item\").slick({
 \tdots: true
 });
-", "assets/js/monCode.js", "C:\\Monza\\app\\Resources\\views\\assets\\js\\monCode.js");
+", "assets/js/monCode.js", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\assets\\js\\monCode.js");
     }
 }

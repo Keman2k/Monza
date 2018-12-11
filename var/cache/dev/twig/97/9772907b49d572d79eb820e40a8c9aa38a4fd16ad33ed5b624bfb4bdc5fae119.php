@@ -59,7 +59,9 @@ class __TwigTemplate_5db6ecb57cbf1010d0776b0a7b5d0aad4583f39961c8fe07c52fbf8c544
             echo twig_escape_filter($this->env, $this->getAttribute($context["brand"], "getBrandModel", array()), "html", null, true);
             echo ", ";
             echo twig_escape_filter($this->env, $this->getAttribute($context["brand"], "getBrandTitle", array()), "html", null, true);
-            echo "</h4>
+            echo " <a href=\"/brands/{brandId}\"<img src=\"";
+            echo $this->getAttribute($context["brand"], "getBrandImage", array());
+            echo "\"></a><a href=\"/brands/{brandId}\"><button>En savoir plus</button></a></h4>
             ";
         }
         $_parent = $context['_parent'];
@@ -89,7 +91,7 @@ class __TwigTemplate_5db6ecb57cbf1010d0776b0a7b5d0aad4583f39961c8fe07c52fbf8c544
 
     public function getDebugInfo()
     {
-        return array (  69 => 8,  56 => 6,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  71 => 8,  56 => 6,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -107,10 +109,10 @@ class __TwigTemplate_5db6ecb57cbf1010d0776b0a7b5d0aad4583f39961c8fe07c52fbf8c544
 {% block body %}
 
             {% for brand in brands %}
-\t\t\t\t<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}}</h4>
+\t\t\t\t<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} <a href=\"/brands/{brandId}\"<img src=\"{{brand.getBrandImage | raw }}\"></a><a href=\"/brands/{brandId}\"><button>En savoir plus</button></a></h4>
             {% endfor %}
 
 
-{% endblock %}", "@Monza/Default/brands.html.twig", "C:\\Users\\mbouantoun\\Desktop\\MonzaSymfony-20181210T081511Z-001\\MonzaSymfony\\src\\MonzaBundle\\Resources\\views\\Default\\brands.html.twig");
+{% endblock %}", "@Monza/Default/brands.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\brands.html.twig");
     }
 }

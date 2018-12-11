@@ -459,6 +459,6 @@ class __TwigTemplate_d6c97267b25093225f74b7ad7db126b8a3097aea9385c4f9b4086683d63
     opacity: .75;
     color: black;
 }
-", "assets/css/slick-theme.css", "C:\\Monza\\app\\Resources\\views\\assets\\css\\slick-theme.css");
+", "assets/css/slick-theme.css", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\assets\\css\\slick-theme.css");
     }
 }

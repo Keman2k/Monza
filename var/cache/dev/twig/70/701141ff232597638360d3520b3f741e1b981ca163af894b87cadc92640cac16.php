@@ -197,8 +197,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
       <div id=\"owl-demo\" class=\"owl-carousel\">
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F40/F40_1.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F40/F40_1.jpg\" data-src=\"img/voitures/Ferrari/F40/F40_1.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Ferrari/F40/5.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Ferrari/F40/5.jpg\" data-src=\"assets/img/voitures/Ferrari/F40/5.jpg\" alt=\"F40\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -208,8 +208,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F430/F430_5.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F430/F430_5.jpg\" data-src=\"img/voitures/Ferrari/F430/F430_5.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Ferrari/F430/Ferrari_F430_2.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Ferrari/F430/Ferrari_F430_2.jpg\" data-src=\"assets/img/voitures/Ferrari/F430/Ferrari_F430_2.jpg\" alt=\"F430\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -220,7 +220,7 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
 
         <div class=\"item\">
           <a href=\"single-portfolio-1.html\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" data-src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" alt=\"\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" data-src=\"assets/img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -230,8 +230,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a href=\"img/voitures/Koenigsegg/One 1/4.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/One 1/4.jpg\" data-src=\"img/voitures/Koenigsegg/One 1/4.jpg\" alt=\"\">
+          <a href=\"assets/img/voitures/AlfaRomeo/1.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/AlfaRomeo/1.jpg\" data-src=\"assets/img/voitures/AlfaRomeo/1.jpg\" alt=\"Alfa Roméo\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -241,8 +241,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Koenigsegg/Agera RS/2.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" data-src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Koenigsegg/Agera RS/2.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Koenigsegg/Agera RS/2.jpg\" data-src=\"assets/img/voitures/Koenigsegg/Agera RS/2.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -252,8 +252,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\">Pagani_Zonda_Revolucion_6.jpg
-            <img class=\"lazyOwl\" src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" data-src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\">Pagani_Zonda_Revolucion_6.jpg
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" data-src=\"assets/img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -263,8 +263,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" data-src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Maserati/MC12/Maserati_MC_12.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" data-src=\"assets/img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -552,8 +552,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
       <div id=\"owl-demo\" class=\"owl-carousel\">
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F40/F40_1.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F40/F40_1.jpg\" data-src=\"img/voitures/Ferrari/F40/F40_1.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Ferrari/F40/5.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Ferrari/F40/5.jpg\" data-src=\"assets/img/voitures/Ferrari/F40/5.jpg\" alt=\"F40\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -563,8 +563,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Ferrari/F430/F430_5.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/F430/F430_5.jpg\" data-src=\"img/voitures/Ferrari/F430/F430_5.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Ferrari/F430/Ferrari_F430_2.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Ferrari/F430/Ferrari_F430_2.jpg\" data-src=\"assets/img/voitures/Ferrari/F430/Ferrari_F430_2.jpg\" alt=\"F430\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -575,7 +575,7 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
 
         <div class=\"item\">
           <a href=\"single-portfolio-1.html\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" data-src=\"img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" alt=\"\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" data-src=\"assets/img/voitures/Ferrari/LaFerrari/Ferrari_Laferrari_3.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -585,8 +585,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a href=\"img/voitures/Koenigsegg/One 1/4.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/One 1/4.jpg\" data-src=\"img/voitures/Koenigsegg/One 1/4.jpg\" alt=\"\">
+          <a href=\"assets/img/voitures/AlfaRomeo/1.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/AlfaRomeo/1.jpg\" data-src=\"assets/img/voitures/AlfaRomeo/1.jpg\" alt=\"Alfa Roméo\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -596,8 +596,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Koenigsegg/Agera RS/2.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" data-src=\"img/voitures/Koenigsegg/Agera RS/2.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Koenigsegg/Agera RS/2.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Koenigsegg/Agera RS/2.jpg\" data-src=\"assets/img/voitures/Koenigsegg/Agera RS/2.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -607,8 +607,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\">Pagani_Zonda_Revolucion_6.jpg
-            <img class=\"lazyOwl\" src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" data-src=\"img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\">Pagani_Zonda_Revolucion_6.jpg
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" data-src=\"assets/img/voitures/Pagani/Zonda Revolucion/Pagani_Zonda_Revolucion_6.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -618,8 +618,8 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         </div>
 
         <div class=\"item\">
-          <a data-rel=\"prettyPhoto\" href=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\">
-            <img class=\"lazyOwl\" src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" data-src=\"img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" alt=\"\">
+          <a data-rel=\"prettyPhoto\" href=\"assets/img/voitures/Maserati/MC12/Maserati_MC_12.jpg\">
+            <img class=\"lazyOwl\" src=\"assets/img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" data-src=\"assets/img/voitures/Maserati/MC12/Maserati_MC_12.jpg\" alt=\"\">
             <div>
                   <small>lien cliquable vers la fiche produit.</small>
                   <span>Nom de la voiture ou du tracé</span>
@@ -737,6 +737,6 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
     </div>
   </section>
 
-{% endblock %}", "@Monza/Default/index.html.twig", "C:\\Users\\mbouantoun\\Desktop\\MonzaSymfony-20181210T081511Z-001\\MonzaSymfony\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
+{% endblock %}", "@Monza/Default/index.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
     }
 }

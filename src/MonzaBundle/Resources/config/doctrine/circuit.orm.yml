@@ -1,0 +1,20 @@
+MonzaBundle\Entity\circuit:
+    type: entity
+    table: null
+    repositoryClass: MonzaBundle\Repository\circuitRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        circuitName:
+            type: string
+            length: 255
+        circuitDescription:
+            type: text
+        circuitImage:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

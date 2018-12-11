@@ -128,155 +128,29 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return $this->mergeDefaults(array_replace($matches, array('_route' => 'voiures_global')), array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::brandAction',));
             }
 
-            // voiures_globalite
+            // voiures_globalB
             if ('/brands' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::brandsAction',  '_route' => 'voiures_globalite',);
+                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::brandsAction',  '_route' => 'voiures_globalB',);
             }
 
         }
 
-        elseif (0 === strpos($pathinfo, '/F')) {
-            // monza_F40
-            if ('/F40' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::F40Action',  '_route' => 'monza_F40',);
+        elseif (0 === strpos($pathinfo, '/circuits')) {
+            // monza_Circuits
+            if (preg_match('#^/circuits/(?P<circuitId>[^/]++)$#sD', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'monza_Circuits')), array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::circuitAction',));
             }
 
-            // monza_F430
-            if ('/F430' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::F430Action',  '_route' => 'monza_F430',);
+            // monza_globalC
+            if ('/circuits' === $pathinfo) {
+                return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::circuitsAction',  '_route' => 'monza_globalC',);
             }
 
-            // monza_Fiorano
-            if ('/Fiorano' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::FioranoAction',  '_route' => 'monza_Fiorano',);
-            }
-
-        }
-
-        // monza_Laferrari
-        if ('/Laferrari' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::LaferrariAction',  '_route' => 'monza_Laferrari',);
-        }
-
-        // monza_Lamborghini
-        if ('/Lamborghini' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::LamborghiniAction',  '_route' => 'monza_Lamborghini',);
-        }
-
-        // monza_Gallardo
-        if ('/Gallardo' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::GallardoAction',  '_route' => 'monza_Gallardo',);
-        }
-
-        if (0 === strpos($pathinfo, '/M')) {
-            // monza_Murcielago
-            if ('/Murcielago' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::MurcielagoAction',  '_route' => 'monza_Murcielago',);
-            }
-
-            // monza_Maserati
-            if ('/Maserati' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::MaseratiAction',  '_route' => 'monza_Maserati',);
-            }
-
-            // monza_Magny
-            if ('/Magny' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::MagnyAction',  '_route' => 'monza_Magny',);
-            }
-
-            // monza_Misano
-            if ('/Misano' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::MisanoAction',  '_route' => 'monza_Misano',);
-            }
-
-            // monza_Monza
-            if ('/Monza' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::MonzaAction',  '_route' => 'monza_Monza',);
-            }
-
-        }
-
-        elseif (0 === strpos($pathinfo, '/P')) {
-            // monza_Pagani
-            if ('/Pagani' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\VoitureController::PaganiAction',  '_route' => 'monza_Pagani',);
-            }
-
-            // monza_Paul
-            if ('/Paul' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::PaulAction',  '_route' => 'monza_Paul',);
-            }
-
-            // monza_Pescara
-            if ('/Pescara' === $pathinfo) {
-                return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::PescaraAction',  '_route' => 'monza_Pescara',);
-            }
-
-        }
-
-        // monza_Circuits
-        if ('/circuits' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::CircuitsAction',  '_route' => 'monza_Circuits',);
         }
 
         // monza_connection
         if ('/connection' === $pathinfo) {
             return array (  '_controller' => 'MonzaBundle\\Controller\\UserController::ConnectionAction',  '_route' => 'monza_connection',);
-        }
-
-        // monza_Brand
-        if ('/Brands' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::BrandsAction',  '_route' => 'monza_Brand',);
-        }
-
-        // monza_Bugatti
-        if ('/Bugatti' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::BugattiAction',  '_route' => 'monza_Bugatti',);
-        }
-
-        // monza_Charrade
-        if ('/Charrade' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::CharradeAction',  '_route' => 'monza_Charrade',);
-        }
-
-        // monza_Dijon
-        if ('/Dijon' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::DijonAction',  '_route' => 'monza_Dijon',);
-        }
-
-        // monza_Donington
-        if ('/Donington' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::DoningtonAction',  '_route' => 'monza_Donington',);
-        }
-
-        // monza_Hokenheimring
-        if ('/Hokenheimring' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::HokenheimringAction',  '_route' => 'monza_Hokenheimring',);
-        }
-
-        // monza_Imola
-        if ('/Imola' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::ImolaAction',  '_route' => 'monza_Imola',);
-        }
-
-        // monza_Nordschleife
-        if ('/Nordschleife' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::NordschleifeAction',  '_route' => 'monza_Nordschleife',);
-        }
-
-        // monza_Nürburgring
-        if ('/Nürburgring' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::NürburgringAction',  '_route' => 'monza_Nürburgring',);
-        }
-
-        // monza_Rouen
-        if ('/Rouen' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::RouenAction',  '_route' => 'monza_Rouen',);
-        }
-
-        // monza_Vallelunga
-        if ('/Vallelunga' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\CircuitsController::VallelungaAction',  '_route' => 'monza_Vallelunga',);
         }
 
         // monza_inscription

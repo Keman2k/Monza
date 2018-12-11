@@ -556,6 +556,6 @@ Y–ÚŸ\000u©6ô2ïmØ¿&LŠ6›L`MAxåáB56òšQª¢¶áÖ¤õcæK7_üj=¥²ËXîˆm]Ãï¢]¬»Xìé­Å1t\
 ¨/#‚o¯ZR2¸ó…b9j`I\"5R8\000tû=)Hqå]è¬Þ¨§ŠK]âÚ£C÷V¢„ˆÈ]<ê¦×…÷,e‡]\t¦½\000IÚFÛTqÞ,j6‹Ò6,þk´e© ¯òØƒ÷Te\000RÂûO+Q»t†Mz3ËÀÊ8›ÿ\000U\$-¸}ÝB‹÷V‰M±ü¡ät6¨—&…”ó’ú§ìñ&Å“Æ=GbÃ“_ó¡i‘¼¡†œ‰7¨D0´›o©ÓË¡üéŸµª>íí®¼yÑº¾êé§BU“}ÜEèõ;›
 ­&3…·¦|àþTÑ\$ªºÆt¿øÖ”é—Rý§ò‹_®œ)UÍ¶Þ‘ùþMmÂ•]{!%Ù­è·Ë}o¾×ªÑìØwZü÷
 T«OtcàKÒl>·ÙÂôQú;|û¶ßMÜ)R©Ð×Ãß¸}¼»w_ôÿ\000¶Š+lýv¾”©T{„
-o¹ôýKxZôë¿~¾¿ÛÂ•*=º©awß[ÚÜíS×óZÚZüiR¢6Å.ÛéÃík}µU½v^úß…*U—ºÛÞq¿]½åxÌÓ‡Ùü*ãý>ßÜÙn_ýT¨¿'Cë±Oö=C·vÎváR¯ÓØìáøÒ¥Y©+¿B\tï¯©Nþ;oû{íÊÜ)Rªº–»—#¾ï&ës½­Hìõ4ùÿ\000§*Uz~&íÐ³«´Þÿ\000m¨§¿¦wåµéR«Ð×OqPú»…·ønáE-ïÿ\000äðµ*U‡³1Õëk»ÆÜ>Ú˜zw5ü-oÆ•*Õv6‚“ÑØwÛðªËôöÒÛ¹Z×ü)R¥ºlK-¶÷þ?†µM­.ï¶ßýÔ©Væ-²%Kí·Û—ËB}=ãù¹mãöÒ¥R¿œÊÝ}Å„Ûú÷[ìþóz;|—¿…éR®½ÎŸ¤«·yµïýU8ú{›|ÜíJ•E·¼•Ø›ö6þþÿ\000Zõž•µõ6r½¯áJ•_í©®Ÿˆ—ä>µý/Çðª¯ôº}.ÿ\000üiR£ü¿ˆý(/Û·ïî·-¶¿áL›?ü¶åÂö¥J¢Ù.AÃËºßÕjž›øó¥JVÆ×AKôW;·_Ã‡ãT¤ú]m»Ž–¥J«÷lý>Þ~­Â‡öí¯Ùn4©V„F=mãnú¹û7«¿‡+R¥Uu-wô]öÿ\000W³}-Ç¥¾÷¥J±ðûÊÿ\000·rh~¦þMÛ9ÞÔqîÞxøîµ*U¥ïxÒú67¾îtñú[M¯n{¸R¥E¸@7£s{Ûð¢}3o“Â×¥J´?WâU>†ï.ýÜ¾_ãV|»|÷½´ázTª~¤U¿à<÷n·¨ŸmüÖÝÎÖ¥JªÛð/éëï!ÿ\000¦þ­×¥J•?ÿÙ", "assets/img/voitures_opt/Ferrari/F488 GT3/Ferrari_GT3_7.jpg", "C:\\Monza\\app\\Resources\\views\\assets\\img\\voitures_opt\\Ferrari\\F488 GT3\\Ferrari_GT3_7.jpg");
+o¹ôýKxZôë¿~¾¿ÛÂ•*=º©awß[ÚÜíS×óZÚZüiR¢6Å.ÛéÃík}µU½v^úß…*U—ºÛÞq¿]½åxÌÓ‡Ùü*ãý>ßÜÙn_ýT¨¿'Cë±Oö=C·vÎváR¯ÓØìáøÒ¥Y©+¿B\tï¯©Nþ;oû{íÊÜ)Rªº–»—#¾ï&ës½­Hìõ4ùÿ\000§*Uz~&íÐ³«´Þÿ\000m¨§¿¦wåµéR«Ð×OqPú»…·ønáE-ïÿ\000äðµ*U‡³1Õëk»ÆÜ>Ú˜zw5ü-oÆ•*Õv6‚“ÑØwÛðªËôöÒÛ¹Z×ü)R¥ºlK-¶÷þ?†µM­.ï¶ßýÔ©Væ-²%Kí·Û—ËB}=ãù¹mãöÒ¥R¿œÊÝ}Å„Ûú÷[ìþóz;|—¿…éR®½ÎŸ¤«·yµïýU8ú{›|ÜíJ•E·¼•Ø›ö6þþÿ\000Zõž•µõ6r½¯áJ•_í©®Ÿˆ—ä>µý/Çðª¯ôº}.ÿ\000üiR£ü¿ˆý(/Û·ïî·-¶¿áL›?ü¶åÂö¥J¢Ù.AÃËºßÕjž›øó¥JVÆ×AKôW;·_Ã‡ãT¤ú]m»Ž–¥J«÷lý>Þ~­Â‡öí¯Ùn4©V„F=mãnú¹û7«¿‡+R¥Uu-wô]öÿ\000W³}-Ç¥¾÷¥J±ðûÊÿ\000·rh~¦þMÛ9ÞÔqîÞxøîµ*U¥ïxÒú67¾îtñú[M¯n{¸R¥E¸@7£s{Ûð¢}3o“Â×¥J´?WâU>†ï.ýÜ¾_ãV|»|÷½´ázTª~¤U¿à<÷n·¨ŸmüÖÝÎÖ¥JªÛð/éëï!ÿ\000¦þ­×¥J•?ÿÙ", "assets/img/voitures_opt/Ferrari/F488 GT3/Ferrari_GT3_7.jpg", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\assets\\img\\voitures_opt\\Ferrari\\F488 GT3\\Ferrari_GT3_7.jpg");
     }
 }

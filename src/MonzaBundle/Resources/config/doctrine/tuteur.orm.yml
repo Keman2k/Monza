@@ -1,0 +1,27 @@
+MonzaBundle\Entity\tuteur:
+    type: entity
+    table: null
+    repositoryClass: MonzaBundle\Repository\tuteurRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        tuteurName:
+            type: string
+            length: 255
+        tuteurNickname:
+            type: string
+            length: 255
+        tuteurAge:
+            type: string
+            length: 255
+        tuteurSpecialite:
+            type: text
+            length: 255
+        tuteurImage:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

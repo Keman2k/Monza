@@ -3,96 +3,38 @@
 namespace MonzaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use MonzaBundle\Entity\circuit;
+use Doctrine\ORM\EntityManagerInterface;
 
 class CircuitsController extends Controller
 {
-    public function CircuitsAction()
+    public function circuitsAction()
     {
-        return $this->render('@Monza/Default/circuits.html.twig');
+    	$circuits = $this->getDoctrine()
+        ->getRepository(circuit::class)
+        ->findAll();
+
+        if (!$circuits) {
+            throw $this->createNotFoundException(
+                'No products found'
+            );
+        }
+        return $this->render('@Monza/Default/circuits.html.twig', array('circuits' => $circuits));
     }
 
-    public function BrandHatchAction()
+     public function CircuitAction($circuitId)
     {
-        return $this->render('@Monza/Default/brand.html.twig');
-    }
 
-    public function BugattiAction()
-    {
-        return $this->render('@Monza/Default/bugatti.html.twig');
-    }
+        $circuit = $this->getDoctrine()
+        ->getRepository(circuit::class)
+        ->find($circuitId);
 
-    public function CharradeAction()
-    {
-        return $this->render('@Monza/Default/charrade.html.twig');
-    }
+        if (!$circuit) {
+            throw $this->createNotFoundException(
+                'No product found for id '.$productId
+            );
+        }
 
-    public function DijonAction()
-    {
-        return $this->render('@Monza/Default/dijon.html.twig');
-    }
-
-    public function DoningtonAction()
-    {
-        return $this->render('@Monza/Default/donington.html.twig');
-    }
-
-    public function FioranoAction()
-    {
-        return $this->render('@Monza/Default/fiorano.html.twig');
-    }
-
-    public function HokenheimringAction()
-    {
-        return $this->render('@Monza/Default/hokenheimring.html.twig');
-    }
-
-    public function ImolaAction()
-    {
-        return $this->render('@Monza/Default/imola.html.twig');
-    }
-
-    public function MagnyAction()
-    {
-        return $this->render('@Monza/Default/magny.html.twig');
-    }
-
-    public function MisanoAction()
-    {
-        return $this->render('@Monza/Default/misano.html.twig');
-    }
-
-    public function MonzaAction()
-    {
-        return $this->render('@Monza/Default/Monza.html.twig');
-    }
-
-    public function NordschleifeAction()
-    {
-        return $this->render('@Monza/Default/nordschleife.html.twig');
-    }
-
-    public function NürburgringAction()
-    {
-        return $this->render('@Monza/Default/nürburgring.html.twig');
-    }
-
-    public function PaulAction()
-    {
-        return $this->render('@Monza/Default/paul.html.twig');
-    }
-
-    public function PescaraAction()
-    {
-        return $this->render('@Monza/Default/pescara.html.twig');
-    }
-
-    public function RouenAction()
-    {
-        return $this->render('@Monza/Default/rouen.html.twig');
-    }
-
-    public function VallelungaAction()
-    {
-        return $this->render('@Monza/Default/vallelunga.html.twig');
+        return $this->render('@Monza/Default/circuit.html.twig', array('circuit' => $circuit));
     }
 }

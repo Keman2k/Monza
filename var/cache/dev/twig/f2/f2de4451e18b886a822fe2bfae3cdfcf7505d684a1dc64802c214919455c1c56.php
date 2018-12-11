@@ -165,6 +165,6 @@ class __TwigTemplate_4095593111ec97fe07da91f8ac028c639b1545d5fe7d864dfbe97712396
 
 <!-- <img src=\"assets/img/logo.jpg\" class=\"logoNav\"> logo à intégrer dans la nav -->
 <!-- style=\"rgb(247, 234, 68)\"; écriture à mettre dans la nav-->
-<!-- style=\"color: rgb(247, 234, 68);\"> -->", "inc/nav.inc.html", "C:\\Monza\\app\\Resources\\views\\inc\\nav.inc.html");
+<!-- style=\"color: rgb(247, 234, 68);\"> -->", "inc/nav.inc.html", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\inc\\nav.inc.html");
     }
 }
