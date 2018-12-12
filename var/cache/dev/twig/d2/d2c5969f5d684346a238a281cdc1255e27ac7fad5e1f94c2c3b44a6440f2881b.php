@@ -66,7 +66,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
 
         // line 5
         echo "<!DOCTYPE html>
-<html lang=\"en\">
+<html lang=\"fr\">
 
 <head>
   <meta charset=\"utf-8\">
@@ -75,26 +75,54 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
   <meta content=\"\" name=\"keywords\">
   <meta content=\"\" name=\"description\">
 
-  <!-- Favicons -->
-  <link href=\"img/favicon.png\" rel=\"icon\">
-  <link href=\"img/apple-touch-icon.png\" rel=\"apple-touch-icon\">
+  <link href=\"";
+        // line 15
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/logo.png"), "html", null, true);
+        echo "\" rel=\"icon\">
+  <link href=\"";
+        // line 16
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/apple-touch-icon.png\" rel=\"apple"), "html", null, true);
+        echo "-touch-icon\">
 
-  <!-- Google Fonts -->
-  <link href=\"https://fonts.googleapis.com/css?family=Ruda:400,900,700\" rel=\"stylesheet\">
+  <link href=\"";
+        // line 18
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/https://fonts.googleapis.com/css?family=Ruda:400,900,700"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
 
-  <!-- Bootstrap CSS File -->
-  <link href=\"lib/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">
+  <link href=\"";
+        // line 20
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/bootstrap/css/bootstrap.min.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
 
-  <!-- Libraries CSS Files -->
-  <link href=\"lib/font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\">
-  <link href=\"lib/prettyphoto/css/prettyphoto.css\" rel=\"stylesheet\">
-  <link href=\"lib/hover/hoverex-all.css\" rel=\"stylesheet\">
-  <link href=\"lib/jetmenu/jetmenu.css\" rel=\"stylesheet\">
-  <link href=\"lib/owl-carousel/owl-carousel.css\" rel=\"stylesheet\">
+  <link href=\"";
+        // line 22
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/font-awesome/css/font-awesome.min.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+  <link href=\"";
+        // line 23
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/prettyphoto/css/prettyphoto.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+  <link href=\"";
+        // line 24
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/hover/hoverex-all.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+  <link href=\"";
+        // line 25
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/jetmenu/jetmenu.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+  <link href=\"";
+        // line 26
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/owl-carousel/owl-carousel.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
 
-  <!-- Main Stylesheet File -->
-  <link href=\"css/style.css\" rel=\"stylesheet\">
-  <link rel=\"stylesheet\" href=\"css/colors/blue.css\">
+  <link href=\"";
+        // line 28
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/css/style.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+  <link rel=\"stylesheet\" href=\"";
+        // line 29
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/css/colors/blue.css"), "html", null, true);
+        echo "\">
 
 
 
@@ -102,13 +130,12 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
     <div class=\"container\">
       <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
         <ul class=\"breadcrumb\">
-          <li><a href=\"index.html\">Home</a></li>
-          <li>About</li>
+          <li><a href=\"/\">Acceuil</a></li>
+          <li>Qui sommes-nous ?</li>
         </ul>
-        <h2>ABOUT</h2>
+        <h2>QUI SOMMES-NOUS ?</h2>
       </div>
       <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
-        <!-- search -->
         <div class=\"search-bar\">
           <form action=\"\" method=\"get\">
             <fieldset>
@@ -117,11 +144,9 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
             </fieldset>
           </form>
         </div>
-        <!-- / end div .search-bar -->
       </div>
     </div>
   </section>
-  <!-- end post-wrapper-top -->
 
   <section class=\"section1\">
     <div class=\"container clearfix\">
@@ -135,9 +160,9 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
         <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
           <div class=\"he-wrap tpl2\">
             <img src=\"";
-        // line 74
+        // line 66
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/img/about.jpg"), "html", null, true);
-        echo "\" alt=\"\" class=\"img-responsive\">
+        echo "\" alt=\"qsn\" class=\"img-responsive\">
             <div class=\"he-view\">
               <div class=\"bg a0\" data-animate=\"fadeIn\">
                 <div class=\"center-bar\">
@@ -148,9 +173,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
               </div>
             </div>
           </div>
-          <!-- he wrap -->
         </div>
-        <!-- end col-6 -->
 
         <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
           <p>Keman Racing ! a été par des passionnés pour des passionnés !</p>
@@ -242,17 +265,14 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
         <div class=\"f-element col-lg-3 col-md-3 col-sm-6 col-xs-12\">
           <i class=\"fa fa-smile-o fa-4x\"></i>
           <div class=\"milestone-counter\">
-            <span class=\"stat-count highlight\">+ de 100</span>
+            <span class=\"stat-count highlight\">300</span>
             <div class=\"milestone-details\">Clients satisfaits chaque jours</div>
           </div>
         </div>
       </div>
-      <!-- end stat -->
 
     </div>
-    <!-- end container -->
   </section>
-  <!-- end section -->
 
   <section class=\"section3 withpadding\">
     <div class=\"container\">
@@ -265,9 +285,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
           <a class=\"dmbutton button large pull-right\" href=\"#\"><i class=\"fa fa-download\"></i> GET A QUOTE</a>
         </div>
       </div>
-      <!-- end message -->
     </div>
-    <!-- end container -->
   </section>
 
 ";
@@ -291,7 +309,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
 
     public function getDebugInfo()
     {
-        return array (  139 => 74,  68 => 5,  59 => 4,  41 => 3,  11 => 1,);
+        return array (  164 => 66,  124 => 29,  120 => 28,  115 => 26,  111 => 25,  107 => 24,  103 => 23,  99 => 22,  94 => 20,  89 => 18,  84 => 16,  80 => 15,  68 => 5,  59 => 4,  41 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -309,7 +327,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
 {% block title %} Keman Racing{% endblock %}
 {% block body %}
 <!DOCTYPE html>
-<html lang=\"en\">
+<html lang=\"fr\">
 
 <head>
   <meta charset=\"utf-8\">
@@ -318,26 +336,21 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
   <meta content=\"\" name=\"keywords\">
   <meta content=\"\" name=\"description\">
 
-  <!-- Favicons -->
-  <link href=\"img/favicon.png\" rel=\"icon\">
-  <link href=\"img/apple-touch-icon.png\" rel=\"apple-touch-icon\">
+  <link href=\"{{ asset('/assets/img/logo.png') }}\" rel=\"icon\">
+  <link href=\"{{ asset('/assets/img/apple-touch-icon.png\" rel=\"apple') }}-touch-icon\">
 
-  <!-- Google Fonts -->
-  <link href=\"https://fonts.googleapis.com/css?family=Ruda:400,900,700\" rel=\"stylesheet\">
+  <link href=\"{{ asset('/assets/https://fonts.googleapis.com/css?family=Ruda:400,900,700') }}\" rel=\"stylesheet\">
 
-  <!-- Bootstrap CSS File -->
-  <link href=\"lib/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">
+  <link href=\"{{ asset('/assets/lib/bootstrap/css/bootstrap.min.css') }}\" rel=\"stylesheet\">
 
-  <!-- Libraries CSS Files -->
-  <link href=\"lib/font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\">
-  <link href=\"lib/prettyphoto/css/prettyphoto.css\" rel=\"stylesheet\">
-  <link href=\"lib/hover/hoverex-all.css\" rel=\"stylesheet\">
-  <link href=\"lib/jetmenu/jetmenu.css\" rel=\"stylesheet\">
-  <link href=\"lib/owl-carousel/owl-carousel.css\" rel=\"stylesheet\">
+  <link href=\"{{ asset('/assets/lib/font-awesome/css/font-awesome.min.css') }}\" rel=\"stylesheet\">
+  <link href=\"{{ asset('/assets/lib/prettyphoto/css/prettyphoto.css') }}\" rel=\"stylesheet\">
+  <link href=\"{{ asset('/assets/lib/hover/hoverex-all.css') }}\" rel=\"stylesheet\">
+  <link href=\"{{ asset('/assets/lib/jetmenu/jetmenu.css') }}\" rel=\"stylesheet\">
+  <link href=\"{{ asset('/assets/lib/owl-carousel/owl-carousel.css') }}\" rel=\"stylesheet\">
 
-  <!-- Main Stylesheet File -->
-  <link href=\"css/style.css\" rel=\"stylesheet\">
-  <link rel=\"stylesheet\" href=\"css/colors/blue.css\">
+  <link href=\"{{ asset('/assets/css/style.css') }}\" rel=\"stylesheet\">
+  <link rel=\"stylesheet\" href=\"{{ asset('/assets/css/colors/blue.css') }}\">
 
 
 
@@ -345,13 +358,12 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
     <div class=\"container\">
       <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
         <ul class=\"breadcrumb\">
-          <li><a href=\"index.html\">Home</a></li>
-          <li>About</li>
+          <li><a href=\"/\">Acceuil</a></li>
+          <li>Qui sommes-nous ?</li>
         </ul>
-        <h2>ABOUT</h2>
+        <h2>QUI SOMMES-NOUS ?</h2>
       </div>
       <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
-        <!-- search -->
         <div class=\"search-bar\">
           <form action=\"\" method=\"get\">
             <fieldset>
@@ -360,11 +372,9 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
             </fieldset>
           </form>
         </div>
-        <!-- / end div .search-bar -->
       </div>
     </div>
   </section>
-  <!-- end post-wrapper-top -->
 
   <section class=\"section1\">
     <div class=\"container clearfix\">
@@ -377,7 +387,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
         <div class=\"divider\"></div>
         <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
           <div class=\"he-wrap tpl2\">
-            <img src=\"{{ asset('/img/about.jpg') }}\" alt=\"\" class=\"img-responsive\">
+            <img src=\"{{ asset('/img/about.jpg') }}\" alt=\"qsn\" class=\"img-responsive\">
             <div class=\"he-view\">
               <div class=\"bg a0\" data-animate=\"fadeIn\">
                 <div class=\"center-bar\">
@@ -388,9 +398,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
               </div>
             </div>
           </div>
-          <!-- he wrap -->
         </div>
-        <!-- end col-6 -->
 
         <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
           <p>Keman Racing ! a été par des passionnés pour des passionnés !</p>
@@ -482,17 +490,14 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
         <div class=\"f-element col-lg-3 col-md-3 col-sm-6 col-xs-12\">
           <i class=\"fa fa-smile-o fa-4x\"></i>
           <div class=\"milestone-counter\">
-            <span class=\"stat-count highlight\">+ de 100</span>
+            <span class=\"stat-count highlight\">300</span>
             <div class=\"milestone-details\">Clients satisfaits chaque jours</div>
           </div>
         </div>
       </div>
-      <!-- end stat -->
 
     </div>
-    <!-- end container -->
   </section>
-  <!-- end section -->
 
   <section class=\"section3 withpadding\">
     <div class=\"container\">
@@ -505,9 +510,7 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
           <a class=\"dmbutton button large pull-right\" href=\"#\"><i class=\"fa fa-download\"></i> GET A QUOTE</a>
         </div>
       </div>
-      <!-- end message -->
     </div>
-    <!-- end container -->
   </section>
 
 {% endblock %}", "@Monza/Default/qsn.html.twig", "C:\\Users\\mbouantoun\\Documents\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\qsn.html.twig");

@@ -3,7 +3,7 @@
 {% block title %} Keman Racing{% endblock %}
 {% block body %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -12,26 +12,21 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ asset('/assets/img/logo.png') }}" rel="icon">
+  <link href="{{ asset('/assets/img/apple-touch-icon.png" rel="apple') }}-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Ruda:400,900,700" rel="stylesheet">
+  <link href="{{ asset('/assets/https://fonts.googleapis.com/css?family=Ruda:400,900,700') }}" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/prettyphoto/css/prettyphoto.css" rel="stylesheet">
-  <link href="lib/hover/hoverex-all.css" rel="stylesheet">
-  <link href="lib/jetmenu/jetmenu.css" rel="stylesheet">
-  <link href="lib/owl-carousel/owl-carousel.css" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/prettyphoto/css/prettyphoto.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/hover/hoverex-all.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/jetmenu/jetmenu.css') }}" rel="stylesheet">
+  <link href="{{ asset('/assets/lib/owl-carousel/owl-carousel.css') }}" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/colors/blue.css">
+  <link href="{{ asset('/assets/css/style.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('/assets/css/colors/blue.css') }}">
 
 
 
@@ -39,13 +34,12 @@
     <div class="container">
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <ul class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
-          <li>About</li>
+          <li><a href="/">Acceuil</a></li>
+          <li>Qui sommes-nous ?</li>
         </ul>
-        <h2>ABOUT</h2>
+        <h2>QUI SOMMES-NOUS ?</h2>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <!-- search -->
         <div class="search-bar">
           <form action="" method="get">
             <fieldset>
@@ -54,11 +48,9 @@
             </fieldset>
           </form>
         </div>
-        <!-- / end div .search-bar -->
       </div>
     </div>
   </section>
-  <!-- end post-wrapper-top -->
 
   <section class="section1">
     <div class="container clearfix">
@@ -71,7 +63,7 @@
         <div class="divider"></div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <div class="he-wrap tpl2">
-            <img src="{{ asset('/img/about.jpg') }}" alt="" class="img-responsive">
+            <img src="{{ asset('/img/about.jpg') }}" alt="qsn" class="img-responsive">
             <div class="he-view">
               <div class="bg a0" data-animate="fadeIn">
                 <div class="center-bar">
@@ -82,9 +74,7 @@
               </div>
             </div>
           </div>
-          <!-- he wrap -->
         </div>
-        <!-- end col-6 -->
 
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <p>Keman Racing ! a été par des passionnés pour des passionnés !</p>
@@ -176,17 +166,14 @@
         <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <i class="fa fa-smile-o fa-4x"></i>
           <div class="milestone-counter">
-            <span class="stat-count highlight">+ de 100</span>
+            <span class="stat-count highlight">300</span>
             <div class="milestone-details">Clients satisfaits chaque jours</div>
           </div>
         </div>
       </div>
-      <!-- end stat -->
 
     </div>
-    <!-- end container -->
   </section>
-  <!-- end section -->
 
   <section class="section3 withpadding">
     <div class="container">
@@ -199,9 +186,7 @@
           <a class="dmbutton button large pull-right" href="#"><i class="fa fa-download"></i> GET A QUOTE</a>
         </div>
       </div>
-      <!-- end message -->
     </div>
-    <!-- end container -->
   </section>
 
 {% endblock %}
