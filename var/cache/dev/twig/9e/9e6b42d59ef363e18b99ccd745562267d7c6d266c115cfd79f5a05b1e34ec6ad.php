@@ -289,6 +289,6 @@ class __TwigTemplate_e0d5b28e023fe49820fb0f923ce917b9b11922051e21e824393fb89159d
 .slick-arrow.slick-hidden {
     display: none;
 }
-", "assets/css/slick.css", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\assets\\css\\slick.css");
+", "assets/css/slick.css", "C:\\Users\\mbouantoun\\Documents\\Monza\\app\\Resources\\views\\assets\\css\\slick.css");
     }
 }

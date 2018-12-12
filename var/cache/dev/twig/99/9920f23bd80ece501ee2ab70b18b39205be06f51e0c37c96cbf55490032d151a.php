@@ -668,6 +668,6 @@ p§Û¹\0008d~äôkþ·Ü‚Æá®Ù¾å80íw?\$À&€¹P)~6Acb\000 °4ZÖ@ZÄ5¢è-Š<Òm
 P)@§TÅæÅ3dî‚  P>P\000€ `‚Zå„ˆ+\$õ( ¹æP\\4=}P?4“d_Ãt
 ýª\000-8æ²AM@ÙE¦b:\$²P´ê9lúkuÂ©7ø+B•±<x•Ú“Õ·(’„ê@ÑYW5Ê¢§ è7\\?^ªd
 =)%·'\$u]«”HÔ@×Dã\$ocÅŠ°Æt#ÕTGB¶À £*ú'Õ\000 @¼ÐRß|ú ‡R}PG‹Fè!æ‚²<h5B?«Mü(0ÛTÑÊ: hÓDoy²¤¶tò²œýºsWa¹ñKAhöûr²´(”à{Tƒ¢ˆë#=†sêUjfÓüDh½”B·~#\000˜ÆÁ°Ae(Óª«¾wª
-[îŸTžêF˜ 6ó@½Cº°…”HOï@À¹†4mª#T^\000¦m¹©ôE]6£d„-¬‘ÌÑ¦Ú)RÉ¤\$ã²¨Øç(\\]©²´Œ´Li˜@¨qsÝs±ÑH«’¯Ð¸©ôOö„üUe1Õw ¨Ú‰0VT€wŠa¯WQŒYçÑJ«€[D=N(*r6è\000Ý)A[†¨@–’z …¹\000 +†—AZFˆè?ÿÙ", "assets/img/voitures_opt/Ferrari/LaFerrari/130014car-960x540_RYVPPN.jpg", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\assets\\img\\voitures_opt\\Ferrari\\LaFerrari\\130014car-960x540_RYVPPN.jpg");
+[îŸTžêF˜ 6ó@½Cº°…”HOï@À¹†4mª#T^\000¦m¹©ôE]6£d„-¬‘ÌÑ¦Ú)RÉ¤\$ã²¨Øç(\\]©²´Œ´Li˜@¨qsÝs±ÑH«’¯Ð¸©ôOö„üUe1Õw ¨Ú‰0VT€wŠa¯WQŒYçÑJ«€[D=N(*r6è\000Ý)A[†¨@–’z …¹\000 +†—AZFˆè?ÿÙ", "assets/img/voitures_opt/Ferrari/LaFerrari/130014car-960x540_RYVPPN.jpg", "C:\\Users\\mbouantoun\\Documents\\Monza\\app\\Resources\\views\\assets\\img\\voitures_opt\\Ferrari\\LaFerrari\\130014car-960x540_RYVPPN.jpg");
     }
 }

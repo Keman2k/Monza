@@ -202,6 +202,6 @@ class __TwigTemplate_3e82e0642fd11b00f67b190b45c38df8cc821968f5be98ef5d630549100
         <a href=\"/connection\">Vous avez déjà un compte ?</a>
       </div>
     <div>
-{% endblock %}", "@Monza/Default/inscription.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\inscription.html.twig");
+{% endblock %}", "@Monza/Default/inscription.html.twig", "C:\\Users\\mbouantoun\\Documents\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\inscription.html.twig");
     }
 }

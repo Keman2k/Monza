@@ -65,6 +65,6 @@ class __TwigTemplate_6d8e3016fdecceecb717f50d2c6006356c02720000655565796c6f82b76
         S16.01,0.357,11.61,0.357z M17.07,8.337c0,3.011-2.449,5.46-5.46,5.46c-3.011,0-5.46-2.449-5.46-5.46s2.449-5.46,5.46-5.46
         C14.62,2.877,17.07,5.326,17.07,8.337z\"/>
 </svg>
-", "@WebProfiler/Icon/search.svg", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle\\Resources\\views\\Icon\\search.svg");
+", "@WebProfiler/Icon/search.svg", "C:\\Users\\mbouantoun\\Documents\\Monza\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle\\Resources\\views\\Icon\\search.svg");
     }
 }

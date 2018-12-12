@@ -147,6 +147,6 @@ Code fonctionnel
 
 #acceuil{
   width: 10%;
-}", "assets/css/style.css", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\app\\Resources\\views\\assets\\css\\style.css");
+}", "assets/css/style.css", "C:\\Users\\mbouantoun\\Documents\\Monza\\app\\Resources\\views\\assets\\css\\style.css");
     }
 }

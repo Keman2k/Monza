@@ -32,3 +32,7 @@ monza_inscription:
 monza_connection:
     path:     /connection
     defaults: { _controller: MonzaBundle:User:Connection }
+
+monza_Qsn:
+    path:     /qsn
+    defaults: { _controller: MonzaBundle:Qsn:qsn }

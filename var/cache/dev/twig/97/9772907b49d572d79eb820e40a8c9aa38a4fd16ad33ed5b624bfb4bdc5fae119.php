@@ -113,6 +113,6 @@ class __TwigTemplate_5db6ecb57cbf1010d0776b0a7b5d0aad4583f39961c8fe07c52fbf8c544
             {% endfor %}
 
 
-{% endblock %}", "@Monza/Default/brands.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\brands.html.twig");
+{% endblock %}", "@Monza/Default/brands.html.twig", "C:\\Users\\mbouantoun\\Documents\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\brands.html.twig");
     }
 }

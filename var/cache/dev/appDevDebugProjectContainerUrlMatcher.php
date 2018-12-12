@@ -158,6 +158,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'MonzaBundle\\Controller\\UserController::InscriptionAction',  '_route' => 'monza_inscription',);
         }
 
+        // monza_Qsn
+        if ('/qsn' === $pathinfo) {
+            return array (  '_controller' => 'MonzaBundle\\Controller\\QsnController::qsnAction',  '_route' => 'monza_Qsn',);
+        }
+
         if ('/' === $pathinfo && !$allow) {
             throw new Symfony\Component\Routing\Exception\NoConfigurationException();
         }

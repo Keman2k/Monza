@@ -59,6 +59,6 @@ class __TwigTemplate_746bb41d6d49a47d017ab61cc96b0191802824efe1ca8d5627301dd7943
     <?php \$attr['data-prototype'] = \$view->escape(\$view['form']->row(\$prototype)) ?>
 <?php endif ?>
 <?php echo \$view['form']->widget(\$form, array('attr' => \$attr)) ?>
-", "@Framework/Form/collection_widget.html.php", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\FrameworkBundle\\Resources\\views\\Form\\collection_widget.html.php");
+", "@Framework/Form/collection_widget.html.php", "C:\\Users\\mbouantoun\\Documents\\Monza\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\FrameworkBundle\\Resources\\views\\Form\\collection_widget.html.php");
     }
 }
