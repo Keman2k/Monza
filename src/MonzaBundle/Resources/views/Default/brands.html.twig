@@ -3,7 +3,7 @@
 {% block body %}
 
             {% for brand in brands %}
-				<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} <a href="/brands/{brandId}"<img src="{{brand.getBrandImage | raw }}"></a><a href="/brands/{brandId}"><button>En savoir plus</button></a></h4>
+				<h4>La {{brand.getBrandName()}} {{brand.getBrandModel}}, {{brand.getBrandTitle}} <img src="{{brand.getBrandImage | raw }}"><a href="{{brand.getBrandId}}<button>En savoir plus</button>"></a></h4>
             {% endfor %}
 
 

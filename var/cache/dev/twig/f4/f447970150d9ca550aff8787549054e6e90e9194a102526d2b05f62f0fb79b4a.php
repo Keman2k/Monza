@@ -287,11 +287,11 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
                   <ul class=\"dropdown\">
                     <li><a href=\"";
         // line 99
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/login"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/connexion"), "html", null, true);
         echo "\">Connexion</a></li>
                     <li><a href=\"";
         // line 100
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/register"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/inscription"), "html", null, true);
         echo "\">Inscription</a></li>
                   </ul>
                 </li>
@@ -359,7 +359,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
             <a href=\"";
         // line 128
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/home1"), "html", null, true);
-        echo "#\">
+        echo "\">
             <img src=\"img/recent_post_01.png\" alt=\"\" />Bientôt une nouvelle application mobile !</a>
             <a class=\"readmore\" href=\"";
         // line 130
@@ -689,8 +689,8 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
                 </li>
                 <li><a href=\"{{ asset('/#') }}\">Votre compte</a>
                   <ul class=\"dropdown\">
-                    <li><a href=\"{{ asset('/login') }}\">Connexion</a></li>
-                    <li><a href=\"{{ asset('/register') }}\">Inscription</a></li>
+                    <li><a href=\"{{ asset('/connexion') }}\">Connexion</a></li>
+                    <li><a href=\"{{ asset('/inscription') }}\">Inscription</a></li>
                   </ul>
                 </li>
               </ul>
@@ -718,7 +718,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         <h4 class=\"title\">Dernières nouveautés</h4>
         <ul class=\"recent_posts\">
           <li>
-            <a href=\"{{ asset('/home1') }}#\">
+            <a href=\"{{ asset('/home1') }}\">
             <img src=\"img/recent_post_01.png\" alt=\"\" />Bientôt une nouvelle application mobile !</a>
             <a class=\"readmore\" href=\"{{ asset('/#') }}\">En savoir plus</a>
           </li>

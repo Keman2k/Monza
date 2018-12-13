@@ -148,9 +148,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // monza_connection
-        if ('/connection' === $pathinfo) {
-            return array (  '_controller' => 'MonzaBundle\\Controller\\UserController::ConnectionAction',  '_route' => 'monza_connection',);
+        // monza_connexion
+        if ('/connexion' === $pathinfo) {
+            return array (  '_controller' => 'MonzaBundle\\Controller\\UserController::ConnexionAction',  '_route' => 'monza_connexion',);
         }
 
         // monza_inscription

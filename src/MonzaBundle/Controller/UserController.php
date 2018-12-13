@@ -11,8 +11,8 @@ class UserController extends Controller
         return $this->render('@Monza/Default/inscription.html.twig');
     }
 
-    public function ConnectionAction()
+    public function ConnexionAction()
     {
-    	return $this->render('@Monza/Default/connection.html.twig');
+    	return $this->render('@Monza/Default/connexion.html.twig');
     }
 }

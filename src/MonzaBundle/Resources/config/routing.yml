@@ -29,9 +29,9 @@ monza_inscription:
     path:     /inscription
     defaults: { _controller: MonzaBundle:User:Inscription }
 
-monza_connection:
-    path:     /connection
-    defaults: { _controller: MonzaBundle:User:Connection }
+monza_connexion:
+    path:     /connexion
+    defaults: { _controller: MonzaBundle:User:Connexion }
 
 monza_Qsn:
     path:     /qsn
