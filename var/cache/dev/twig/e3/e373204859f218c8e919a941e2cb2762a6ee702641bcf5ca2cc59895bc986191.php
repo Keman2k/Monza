@@ -73,7 +73,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Brands Hatch</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Brands\"><img src=\"/assets/img/circuits/Circuit_Brands_Hatch.png\" alt=\"Hatch\"></a>
+\t\t\t<a href=\"/Brands\"><img src=\"";
+        // line 14
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Brands_Hatch.png"), "html", null, true);
+        echo "\" alt=\"Hatch\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Brands\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -83,7 +86,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Cicuit Bugatti</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Bugatti\"><img src=\"/assets/img/circuits/Circuit_Bugatti.png\" alt=\"Bugatti\"></a>
+\t\t\t<a href=\"/Bugatti\"><img src=\"";
+        // line 24
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Bugatti.png"), "html", null, true);
+        echo "\" alt=\"Bugatti\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Bugatti\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -93,7 +99,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Charrade</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Charrade\"><img src=\"/assets/img/circuits/Circuit_Charrade.png\" alt=\"Charrade\"></a>
+\t\t\t<a href=\"/Charrade\"><img src=\"";
+        // line 34
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Charrade.png"), "html", null, true);
+        echo "\" alt=\"Charrade\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Charrade\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -103,7 +112,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Dijon Prenois</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Dijon\"><img src=\"/assets/img/circuits/Circuit_Dijon-Prenois_Circuit.png\" alt=\"Dijon Prenois\"></a>
+\t\t\t<a href=\"/Dijon\"><img src=\"";
+        // line 44
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Dijon-Prenois_Circuit.png"), "html", null, true);
+        echo "\" alt=\"Dijon Prenois\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Dijon\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -113,7 +125,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Donington</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Donington\"><img src=\"/assets/img/circuits/Circuit_Donington.png\" alt=\"Donington\"></a>
+\t\t\t<a href=\"/Donington\"><img src=\"";
+        // line 54
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Donington.png"), "html", null, true);
+        echo "\" alt=\"Donington\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Donington\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -123,7 +138,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Fiorano</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Fiorano\"><img src=\"/assets/img/circuits/Circuit_Fiorano.jpg\" alt=\"Fiorano\"></a>
+\t\t\t<a href=\"/Fiorano\"><img src=\"";
+        // line 64
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Fiorano.jpg"), "html", null, true);
+        echo "\" alt=\"Fiorano\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Fiorano\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -133,7 +151,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Hokenheimring</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Hokenheimring\"><img src=\"/assets/img/circuits/Circuit_Hokenheimring.png\" alt=\"Hokenheimring\"></a>
+\t\t\t<a href=\"/Hokenheimring\"><img src=\"";
+        // line 74
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Hokenheimring.png"), "html", null, true);
+        echo "\" alt=\"Hokenheimring\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Hokenheimring\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -143,7 +164,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Imola</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Imola\"><img src=\"/assets/img/circuits/Circuit_Imola.jpg\" alt=\"Imola\"></a>
+\t\t\t<a href=\"/Imola\"><img src=\"";
+        // line 84
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Imola.jpg"), "html", null, true);
+        echo "\" alt=\"Imola\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Imola\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -153,7 +177,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Magny Cours</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Magny\"><img src=\"/assets/img/circuits/Circuit_Magny_Cours.png\" alt=\"Magny Cours\"></a>
+\t\t\t<a href=\"/Magny\"><img src=\"";
+        // line 94
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Magny_Cours.png"), "html", null, true);
+        echo "\" alt=\"Magny Cours\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Magny\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -163,7 +190,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Misano</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Misano\"><img src=\"/assets/img/circuits/Circuit_Misano.jpg\" alt=\"Misano\"></a>
+\t\t\t<a href=\"/Misano\"><img src=\"";
+        // line 104
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Misano.jpg"), "html", null, true);
+        echo "\" alt=\"Misano\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Misano\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -173,7 +203,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Monza</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Monza\"><img src=\"/assets/img/circuits/Circuit_Monza.png\" alt=\"Monza\"></a>
+\t\t\t<a href=\"/Monza\"><img src=\"";
+        // line 114
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Monza.png"), "html", null, true);
+        echo "\" alt=\"Monza\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Monza\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -183,7 +216,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Nordschleife</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Nordschleife\"><img src=\"/assets/img/circuits/Circuit_Nordschleife.png\" alt=\"Nordschleife\"></a>
+\t\t\t<a href=\"/Nordschleife\"><img src=\"";
+        // line 124
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Nordschleife.png"), "html", null, true);
+        echo "\" alt=\"Nordschleife\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Nordschleife\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -193,7 +229,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Nürburgring</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Nürburgring\"><img src=\"/assets/img/circuits/Circuit_Nürburgring.png\" alt=\"Nürburgring\"></a>
+\t\t\t<a href=\"/Nürburgring\"><img src=\"";
+        // line 134
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Nürburgring.png"), "html", null, true);
+        echo "\" alt=\"Nürburgring\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Nürburgring\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -203,7 +242,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Paul Ricard</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Paul\"><img src=\"/assets/img/circuits/Circuit_Paul_Ricard.png\" alt=\"Paul Ricard\"></a>
+\t\t\t<a href=\"/Paul\"><img src=\"";
+        // line 144
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Paul_Ricard.png"), "html", null, true);
+        echo "\" alt=\"Paul Ricard\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Paul\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -213,7 +255,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Pescara</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Pescara\"><img src=\"/assets/img/circuits/Circuit_Pescara.jpg\" alt=\"Pescara\"></a>
+\t\t\t<a href=\"/Pescara\"><img src=\"";
+        // line 154
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Pescara.jpg"), "html", null, true);
+        echo "\" alt=\"Pescara\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Pescara\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -223,7 +268,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Rouen Les Essarts</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Rouen\"><img src=\"/assets/img/circuits/Circuit_Rouen_Les_Essarts.png\" alt=\"Rouen Les Essarts\"></a>
+\t\t\t<a href=\"/Rouen\"><img src=\"";
+        // line 164
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Rouen_Les_Essarts.png"), "html", null, true);
+        echo "\" alt=\"Rouen Les Essarts\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Rouen\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -233,7 +281,10 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Vallelunga.jpg</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Vallelunga\"><img src=\"/assets/img/circuits/Circuit_Vallelunga.jpg\" alt=\"Vallelunga\"></a>
+\t\t\t<a href=\"/Vallelunga\"><img src=\"";
+        // line 174
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/circuits/Vallelunga.jpg"), "html", null, true);
+        echo "\" alt=\"Vallelunga\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Vallelunga\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -260,7 +311,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 
     public function getDebugInfo()
     {
-        return array (  68 => 6,  59 => 5,  41 => 3,  11 => 1,);
+        return array (  286 => 174,  273 => 164,  260 => 154,  247 => 144,  234 => 134,  221 => 124,  208 => 114,  195 => 104,  182 => 94,  169 => 84,  156 => 74,  143 => 64,  130 => 54,  117 => 44,  104 => 34,  91 => 24,  78 => 14,  68 => 6,  59 => 5,  41 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -286,7 +337,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Brands Hatch</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Brands\"><img src=\"/assets/img/circuits/Circuit_Brands_Hatch.png\" alt=\"Hatch\"></a>
+\t\t\t<a href=\"/Brands\"><img src=\"{{ asset('/assets/img/circuits/Brands_Hatch.png') }}\" alt=\"Hatch\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Brands\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -296,7 +347,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Cicuit Bugatti</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Bugatti\"><img src=\"/assets/img/circuits/Circuit_Bugatti.png\" alt=\"Bugatti\"></a>
+\t\t\t<a href=\"/Bugatti\"><img src=\"{{ asset('/assets/img/circuits/Bugatti.png') }}\" alt=\"Bugatti\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Bugatti\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -306,7 +357,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Charrade</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Charrade\"><img src=\"/assets/img/circuits/Circuit_Charrade.png\" alt=\"Charrade\"></a>
+\t\t\t<a href=\"/Charrade\"><img src=\"{{ asset('/assets/img/circuits/Charrade.png') }}\" alt=\"Charrade\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Charrade\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -316,7 +367,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Dijon Prenois</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Dijon\"><img src=\"/assets/img/circuits/Circuit_Dijon-Prenois_Circuit.png\" alt=\"Dijon Prenois\"></a>
+\t\t\t<a href=\"/Dijon\"><img src=\"{{ asset('/assets/img/circuits/Dijon-Prenois_Circuit.png') }}\" alt=\"Dijon Prenois\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Dijon\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -326,7 +377,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Donington</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Donington\"><img src=\"/assets/img/circuits/Circuit_Donington.png\" alt=\"Donington\"></a>
+\t\t\t<a href=\"/Donington\"><img src=\"{{ asset('/assets/img/circuits/Donington.png') }}\" alt=\"Donington\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Donington\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -336,7 +387,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Fiorano</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Fiorano\"><img src=\"/assets/img/circuits/Circuit_Fiorano.jpg\" alt=\"Fiorano\"></a>
+\t\t\t<a href=\"/Fiorano\"><img src=\"{{ asset('/assets/img/circuits/Fiorano.jpg') }}\" alt=\"Fiorano\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Fiorano\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -346,7 +397,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Hokenheimring</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Hokenheimring\"><img src=\"/assets/img/circuits/Circuit_Hokenheimring.png\" alt=\"Hokenheimring\"></a>
+\t\t\t<a href=\"/Hokenheimring\"><img src=\"{{ asset('/assets/img/circuits/Hokenheimring.png') }}\" alt=\"Hokenheimring\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Hokenheimring\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -356,7 +407,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Imola</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Imola\"><img src=\"/assets/img/circuits/Circuit_Imola.jpg\" alt=\"Imola\"></a>
+\t\t\t<a href=\"/Imola\"><img src=\"{{ asset('/assets/img/circuits/Imola.jpg') }}\" alt=\"Imola\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Imola\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -366,7 +417,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Magny Cours</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Magny\"><img src=\"/assets/img/circuits/Circuit_Magny_Cours.png\" alt=\"Magny Cours\"></a>
+\t\t\t<a href=\"/Magny\"><img src=\"{{ asset('/assets/img/circuits/Magny_Cours.png') }}\" alt=\"Magny Cours\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Magny\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -376,7 +427,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Misano</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Misano\"><img src=\"/assets/img/circuits/Circuit_Misano.jpg\" alt=\"Misano\"></a>
+\t\t\t<a href=\"/Misano\"><img src=\"{{ asset('/assets/img/circuits/Misano.jpg') }}\" alt=\"Misano\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Misano\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -386,7 +437,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Monza</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Monza\"><img src=\"/assets/img/circuits/Circuit_Monza.png\" alt=\"Monza\"></a>
+\t\t\t<a href=\"/Monza\"><img src=\"{{ asset('/assets/img/circuits/Monza.png') }}\" alt=\"Monza\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Monza\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -396,7 +447,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Nordschleife</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Nordschleife\"><img src=\"/assets/img/circuits/Circuit_Nordschleife.png\" alt=\"Nordschleife\"></a>
+\t\t\t<a href=\"/Nordschleife\"><img src=\"{{ asset('/assets/img/circuits/Nordschleife.png') }}\" alt=\"Nordschleife\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Nordschleife\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -406,7 +457,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Nürburgring</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Nürburgring\"><img src=\"/assets/img/circuits/Circuit_Nürburgring.png\" alt=\"Nürburgring\"></a>
+\t\t\t<a href=\"/Nürburgring\"><img src=\"{{ asset('/assets/img/circuits/Nürburgring.png') }}\" alt=\"Nürburgring\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Nürburgring\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -416,7 +467,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Paul Ricard</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Paul\"><img src=\"/assets/img/circuits/Circuit_Paul_Ricard.png\" alt=\"Paul Ricard\"></a>
+\t\t\t<a href=\"/Paul\"><img src=\"{{ asset('/assets/img/circuits/Paul_Ricard.png') }}\" alt=\"Paul Ricard\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Paul\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -426,7 +477,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Pescara</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Pescara\"><img src=\"/assets/img/circuits/Circuit_Pescara.jpg\" alt=\"Pescara\"></a>
+\t\t\t<a href=\"/Pescara\"><img src=\"{{ asset('/assets/img/circuits/Pescara.jpg') }}\" alt=\"Pescara\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Pescara\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -436,7 +487,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Rouen Les Essarts</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Rouen\"><img src=\"/assets/img/circuits/Circuit_Rouen_Les_Essarts.png\" alt=\"Rouen Les Essarts\"></a>
+\t\t\t<a href=\"/Rouen\"><img src=\"{{ asset('/assets/img/circuits/Rouen_Les_Essarts.png') }}\" alt=\"Rouen Les Essarts\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Rouen\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>
@@ -446,7 +497,7 @@ class __TwigTemplate_e4dd6974470263a95b7f3d805ef8ec40b5c981700eb192190072d203cc7
 \t\t<h2>Circuit Vallelunga.jpg</h2>
 \t\t<div class=\"metadata\">Quelque chose que je pourrais mettre ici</div>
 \t\t<div class=\"content\">
-\t\t\t<a href=\"/Vallelunga\"><img src=\"/assets/img/circuits/Circuit_Vallelunga.jpg\" alt=\"Vallelunga\"></a>
+\t\t\t<a href=\"/Vallelunga\"><img src=\"{{ asset('/assets/img/circuits/Vallelunga.jpg') }}\" alt=\"Vallelunga\"></a>
 \t\t\t<p>Description du circuit</p>
 \t\t\t<a href=\"/Vallelunga\" class=\"btn btn-primary\">Lire la suite</a>
 \t\t</div>

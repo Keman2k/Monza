@@ -102,9 +102,9 @@ class __TwigTemplate_f66c4a095d5f9cced43c1e4b2f508876b4735e9dd3dc02f845ff57866d9
               <div class=\"he-view\">
                 <div class=\"bg a0\" data-animate=\"fadeIn\">
                   <div class=\"center-bar\">
-                    <a href=\"#\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
-                    <a href=\"#\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
-                    <a href=\"#\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
+                    <a href=\"https://twitter.com/?lang=fr\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
+                    <a href=\"https://fr-fr.facebook.com/\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
+                    <a href=\"https://plus.google.com/discover\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
                   </div>
                 </div>
               </div>
@@ -456,9 +456,9 @@ class __TwigTemplate_f66c4a095d5f9cced43c1e4b2f508876b4735e9dd3dc02f845ff57866d9
               <div class=\"he-view\">
                 <div class=\"bg a0\" data-animate=\"fadeIn\">
                   <div class=\"center-bar\">
-                    <a href=\"#\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
-                    <a href=\"#\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
-                    <a href=\"#\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
+                    <a href=\"https://twitter.com/?lang=fr\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
+                    <a href=\"https://fr-fr.facebook.com/\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
+                    <a href=\"https://plus.google.com/discover\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
                   </div>
                 </div>
               </div>
@@ -681,6 +681,6 @@ class __TwigTemplate_f66c4a095d5f9cced43c1e4b2f508876b4735e9dd3dc02f845ff57866d9
   <script src=\"{{ asset('/lib/jigowatt/jigowatt') }}\"></script>
   <script src=\"{{ asset('/lib/easypiechart/easypiechart.min') }}\"></script>
   <script src=\"{{ asset('/js/main') }}\"></script>
-{% endblock %}", "@Monza/Default/equipe.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\equipe.html.twig");
+{% endblock %}", "@Monza/Default/equipe.html.twig", "C:\\Users\\mbouantoun\\Documents\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\equipe.html.twig");
     }
 }

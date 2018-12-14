@@ -112,7 +112,7 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         <div class=\"servicebox text-center\">
           <div class=\"service-icon\">
             <div class=\"dm-icon-effect-1\" data-effect=\"slide-right\">
-              <a href=\"/tuteurs\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/headset-filled.png\"> </a>
+              <a href=\"/equipe\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/headset-filled.png\"> </a>
             </div>
             <div class=\"servicetitle\">
               <h4>Des tuteurs professionnels !</h4>
@@ -510,7 +510,7 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
         <div class=\"servicebox text-center\">
           <div class=\"service-icon\">
             <div class=\"dm-icon-effect-1\" data-effect=\"slide-right\">
-              <a href=\"/tuteurs\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/headset-filled.png\"> </a>
+              <a href=\"/equipe\" class=\"\"> <img src=\"https://img.icons8.com/ios/100/000000/headset-filled.png\"> </a>
             </div>
             <div class=\"servicetitle\">
               <h4>Des tuteurs professionnels !</h4>
@@ -779,6 +779,6 @@ class __TwigTemplate_0ec93b71cb3217c7d7fa8499301d84ac455d11429afa65e643b821c1728
     </div>
   </section>
 
-{% endblock %}", "@Monza/Default/index.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
+{% endblock %}", "@Monza/Default/index.html.twig", "C:\\Users\\mbouantoun\\Documents\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\index.html.twig");
     }
 }
