@@ -38,6 +38,7 @@ class appDevDebugProjectContainerUrlGenerator extends Symfony\Component\Routing\
         'monza_inscription' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'MonzaBundle\\Controller\\UserController::InscriptionAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/inscription',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'monza_connexion' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'MonzaBundle\\Controller\\UserController::ConnexionAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/connexion',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'monza_Qsn' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'MonzaBundle\\Controller\\QsnController::qsnAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/qsn',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+        'monza_equipe' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'MonzaBundle\\Controller\\DefaultController::EquipeAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/equipe',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
     );
         }
     }

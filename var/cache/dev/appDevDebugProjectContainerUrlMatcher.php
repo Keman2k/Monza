@@ -163,6 +163,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'MonzaBundle\\Controller\\QsnController::qsnAction',  '_route' => 'monza_Qsn',);
         }
 
+        // monza_equipe
+        if ('/equipe' === $pathinfo) {
+            return array (  '_controller' => 'MonzaBundle\\Controller\\DefaultController::EquipeAction',  '_route' => 'monza_equipe',);
+        }
+
         if ('/' === $pathinfo && !$allow) {
             throw new Symfony\Component\Routing\Exception\NoConfigurationException();
         }

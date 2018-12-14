@@ -36,3 +36,8 @@ monza_connexion:
 monza_Qsn:
     path:     /qsn
     defaults: { _controller: MonzaBundle:Qsn:qsn }
+
+# Route pour notre équipe
+monza_equipe:
+    path:     /equipe
+    defaults: { _controller: MonzaBundle:Default:Equipe }

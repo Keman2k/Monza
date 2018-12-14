@@ -157,11 +157,11 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
           <hr>
         </div>
         <div class=\"divider\"></div>
-        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
-          <div class=\"he-wrap tpl2\">
+        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-2\">
+          <div class=\"he-wrap tpl\">
             <img src=\"";
         // line 66
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/img/about.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/img/about.jpg"), "html", null, true);
         echo "\" alt=\"qsn\" class=\"img-responsive\">
             <div class=\"he-view\">
               <div class=\"bg a0\" data-animate=\"fadeIn\">
@@ -385,9 +385,9 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
           <hr>
         </div>
         <div class=\"divider\"></div>
-        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
-          <div class=\"he-wrap tpl2\">
-            <img src=\"{{ asset('/img/about.jpg') }}\" alt=\"qsn\" class=\"img-responsive\">
+        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-2\">
+          <div class=\"he-wrap tpl\">
+            <img src=\"{{ asset('assets/img/about.jpg') }}\" alt=\"qsn\" class=\"img-responsive\">
             <div class=\"he-view\">
               <div class=\"bg a0\" data-animate=\"fadeIn\">
                 <div class=\"center-bar\">
@@ -513,6 +513,6 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
     </div>
   </section>
 
-{% endblock %}", "@Monza/Default/qsn.html.twig", "C:\\Users\\mbouantoun\\Documents\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\qsn.html.twig");
+{% endblock %}", "@Monza/Default/qsn.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\qsn.html.twig");
     }
 }

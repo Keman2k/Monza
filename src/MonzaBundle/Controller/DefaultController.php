@@ -10,4 +10,9 @@ class DefaultController extends Controller
     {
         return $this->render('@Monza/Default/index.html.twig');
     }
+
+    public function EquipeAction()
+    {
+        return $this->render('@Monza/Default/equipe.html.twig');
+    }
 }

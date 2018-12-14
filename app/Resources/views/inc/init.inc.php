@@ -1,0 +1,3 @@
+<?php
+/*Appelle la BDD*/
+?>
