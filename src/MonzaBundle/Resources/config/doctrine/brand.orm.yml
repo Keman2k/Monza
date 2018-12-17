@@ -21,9 +21,6 @@ MonzaBundle\Entity\brand:
         brandPower:
             type: string
             length: 255
-        brandVideo:
-            type: string
-            length: 255
         brandVMax:
             type: string
             length: 255

@@ -157,8 +157,8 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
           <hr>
         </div>
         <div class=\"divider\"></div>
-        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-2\">
-          <div class=\"he-wrap tpl\">
+        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
+          <div class=\"he-wrap tpl6\">
             <img src=\"";
         // line 66
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/img/about.jpg"), "html", null, true);
@@ -166,9 +166,9 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
             <div class=\"he-view\">
               <div class=\"bg a0\" data-animate=\"fadeIn\">
                 <div class=\"center-bar\">
-                  <a href=\"#\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
-                  <a href=\"#\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
-                  <a href=\"#\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
+                  <a href=\"https://twitter.com/?lang=fr\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
+                  <a href=\"https://fr-fr.facebook.com/\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
+                  <a href=\"https://plus.google.com/discover\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
                 </div>
               </div>
             </div>
@@ -385,15 +385,15 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
           <hr>
         </div>
         <div class=\"divider\"></div>
-        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-2\">
-          <div class=\"he-wrap tpl\">
+        <div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12\">
+          <div class=\"he-wrap tpl6\">
             <img src=\"{{ asset('assets/img/about.jpg') }}\" alt=\"qsn\" class=\"img-responsive\">
             <div class=\"he-view\">
               <div class=\"bg a0\" data-animate=\"fadeIn\">
                 <div class=\"center-bar\">
-                  <a href=\"#\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
-                  <a href=\"#\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
-                  <a href=\"#\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
+                  <a href=\"https://twitter.com/?lang=fr\" class=\"twitter a0\" data-animate=\"elasticInDown\"></a>
+                  <a href=\"https://fr-fr.facebook.com/\" class=\"facebook a1\" data-animate=\"elasticInDown\"></a>
+                  <a href=\"https://plus.google.com/discover\" class=\"google a2\" data-animate=\"elasticInDown\"></a>
                 </div>
               </div>
             </div>
@@ -513,6 +513,6 @@ class __TwigTemplate_72a39538d69c42ea94810506e5e67e85ea29b820b3ce25245b36337c7f9
     </div>
   </section>
 
-{% endblock %}", "@Monza/Default/qsn.html.twig", "C:\\Users\\mbouantoun\\Desktop\\Monza-master\\Monza-master\\src\\MonzaBundle\\Resources\\views\\Default\\qsn.html.twig");
+{% endblock %}", "@Monza/Default/qsn.html.twig", "C:\\Users\\mbouantoun\\Documents\\Monza\\src\\MonzaBundle\\Resources\\views\\Default\\qsn.html.twig");
     }
 }
