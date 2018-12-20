@@ -53,7 +53,7 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
         echo " que nous vous proposont : </h3>
 
 
-<h4>La ";
+<h4>";
         // line 8
         echo $this->getAttribute(($context["brand"] ?? $this->getContext($context, "brand")), "getBrandName", array(), "method");
         echo " ";
@@ -114,7 +114,7 @@ class __TwigTemplate_df6245fa6ec5ceb131d6dba46eb941075e2f17bd77667c5444122c68238
 <h3>Les modèles {{brand.getBrandName() | raw }} que nous vous proposont : </h3>
 
 
-<h4>La {{brand.getBrandName() | raw }} {{brand.getBrandModel | raw }}, {{brand.getBrandTitle | raw }} !</h4>
+<h4>{{brand.getBrandName() | raw }} {{brand.getBrandModel | raw }}, {{brand.getBrandTitle | raw }} !</h4>
 
 {{brand.getBrandHistory | raw }}, <img src=\"{{brand.getBrandImage | raw }}\">
 

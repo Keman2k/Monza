@@ -17,4 +17,19 @@ MonzaBundle\Entity\circuit:
         circuitImage:
             type: string
             length: 255
+        circuitTitre:
+            type: string
+            length: 255
+        circuitTour:
+            type: string
+            length: 255
+        circuitPilote:
+            type: string
+            length: 255
+        circuitVirage:
+            type: string
+            length: 255
+        circuitLongueur:
+            type: string
+            length: 255
     lifecycleCallbacks: {  }

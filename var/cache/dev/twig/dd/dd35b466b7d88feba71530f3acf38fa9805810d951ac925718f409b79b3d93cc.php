@@ -256,7 +256,7 @@ class __TwigTemplate_f66c4a095d5f9cced43c1e4b2f508876b4735e9dd3dc02f845ff57866d9
             <div class=\"teammembers-meta\">
               <h4>Stéphanie Laux</h4>
             </div>
-            <p>Stéphanie est notre dernière recrue, elle vient de finir son championnat d'endurance où elle a finit 5 ème avec son équipe.</p>
+            <p>Stéphanie est notre dernière recrue, elle vient de finir son championnat du monde d'endurance où elle a finit 5 ème avec son équipe.</p>
             <small>Pilote d'endurance</small>
             <div class=\"teamskills\">
               <div class=\"progress\">
@@ -598,7 +598,7 @@ class __TwigTemplate_f66c4a095d5f9cced43c1e4b2f508876b4735e9dd3dc02f845ff57866d9
             <div class=\"teammembers-meta\">
               <h4>Stéphanie Laux</h4>
             </div>
-            <p>Stéphanie est notre dernière recrue, elle vient de finir son championnat d'endurance où elle a finit 5 ème avec son équipe.</p>
+            <p>Stéphanie est notre dernière recrue, elle vient de finir son championnat du monde d'endurance où elle a finit 5 ème avec son équipe.</p>
             <small>Pilote d'endurance</small>
             <div class=\"teamskills\">
               <div class=\"progress\">

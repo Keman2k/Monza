@@ -32,31 +32,31 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
 <html lang=\"fr\">
 <head>
   <meta charset=\"utf-8\">
-        <title>";
+  <title>";
         // line 5
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
-";
+  ";
         // line 6
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 34
+        // line 22
         echo "
 ";
-        // line 35
+        // line 23
         $this->displayBlock('header', $context, $blocks);
-        // line 111
+        // line 99
         $this->displayBlock('body', $context, $blocks);
-        // line 114
+        // line 102
         echo "
 ";
-        // line 115
+        // line 103
         $this->displayBlock('footer', $context, $blocks);
-        // line 202
+        // line 171
         echo "
 ";
-        // line 203
+        // line 172
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 223
+        // line 190
         echo "    </body>
 </html>
 ";
@@ -99,55 +99,43 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         echo "  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">
   <meta content=\"\" name=\"keywords\">
   <meta content=\"\" name=\"description\">
-
-  <!-- Favicons -->
   <link href=\"";
-        // line 12
+        // line 10
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/img/logo.png"), "html", null, true);
         echo "\" rel=\"icon\">
-
-
-  <!-- Google Fonts -->
   <link href=\"https://fonts.googleapis.com/css?family=Ruda:400,900,700\" rel=\"stylesheet\">
-
-  <!-- Bootstrap CSS File -->
   <link href=\"";
-        // line 19
+        // line 12
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/bootstrap/css/bootstrap.min.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
-
-  <!-- Libraries CSS Files -->
   <link href=\"";
-        // line 22
+        // line 13
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/font-awesome/css/font-awesome.min.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
   <link href=\"";
-        // line 23
+        // line 14
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/prettyphoto/css/prettyphoto.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
   <link href=\"";
-        // line 24
+        // line 15
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/hover/hoverex-all.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
   <link href=\"";
-        // line 25
+        // line 16
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/jetmenu/jetmenu.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
   <link href=\"";
-        // line 26
+        // line 17
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/owl-carousel/owl-carousel.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
-
-  <!-- Main Stylesheet File -->
   <link href=\"";
-        // line 29
+        // line 18
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/css/style.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"";
-        // line 30
+        // line 19
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/css/colors/blue.css"), "html", null, true);
         echo "\">
-
 </head>
 ";
         
@@ -158,7 +146,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
 
     }
 
-    // line 35
+    // line 23
     public function block_header($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -167,7 +155,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
 
-        // line 36
+        // line 24
         echo "  <div class=\"topbar clearfix\">
     <div class=\"container\">
       <div class=\"col-lg-12 text-right\">
@@ -197,100 +185,100 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
             <div class=\"container clearfix\">
               <ul id=\"jetmenu\" class=\"jetmenu blue\">
                 <li class=\"active\"><a href=\"";
-        // line 64
+        // line 52
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/"), "html", null, true);
         echo "\">Acceuil</a>
                 </li>
                 <li><a href=\"/\">Nous connaître</a>
                   <ul class=\"dropdown\">
                     <li><a href=\"";
-        // line 68
+        // line 56
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/qsn"), "html", null, true);
         echo "\">Qui sommes-nous ?</a></li>
                     <li><a href=\"";
-        // line 69
+        // line 57
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/services"), "html", null, true);
         echo "\">Nos services</a></li>
                     <li><a href=\"";
-        // line 70
+        // line 58
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/equipe"), "html", null, true);
         echo "\">Notre équipe</a></li>
                     <li><a href=\"";
-        // line 71
+        // line 59
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/temoignages"), "html", null, true);
         echo "\">Leurs témoignages</a></li>
                     <li><a href=\"";
-        // line 72
+        // line 60
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/faq"), "html", null, true);
         echo "\">FAQ</a></li>
                     <li><a href=\"";
-        // line 73
+        // line 61
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/contact"), "html", null, true);
         echo "\">Nous Contacter</a></li>
                   </ul>
                 </li>
                 <li><a href=\"";
-        // line 76
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("#"), "html", null, true);
+        // line 64
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/circuits"), "html", null, true);
         echo "\">Nos circuits</a>
                   <ul class=\"dropdown\">
                     <li><a href=\"";
-        // line 78
+        // line 66
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/circuits"), "html", null, true);
         echo "\">Choisir votre circuit</a></li>
                     <li><a href=\"gallery-portfolio.html\">Gallerie</a></li>
                   </ul>
                 </li>
                 <li><a href=\"";
-        // line 82
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("#"), "html", null, true);
+        // line 70
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/brands"), "html", null, true);
         echo "\">Nos voitures</a>
                   <ul class=\"dropdown\">
                     <li><a href=\"";
-        // line 84
+        // line 72
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/brands"), "html", null, true);
         echo "\">Choisir votre voiture</a></li>
                     <li><a href=\"gallery-portfolio.html\">Gallerie</a></li>
                   </ul>
                 <!-- <li><a href=\"";
-        // line 87
+        // line 75
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\">Votre réservation</a> A METTRE UNE FOIS L'USER CONNECTÉ.
                   <ul class=\"dropdown\">
                     <li><a href=\"";
-        // line 89
+        // line 77
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/circuits"), "html", null, true);
         echo "\">Voir nos circuits</a></li>
                     <li><a href=\"";
-        // line 90
+        // line 78
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/produit seul"), "html", null, true);
         echo "\">Single Product</a></li>
                     <li><a href=\"";
-        // line 91
+        // line 79
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/checkout"), "html", null, true);
         echo "\">Votre panier</a></li>
                     <li><a href=\"";
-        // line 92
+        // line 80
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/account"), "html", null, true);
         echo "\">Account Page</a></li>
                     <li><a href=\"";
-        // line 93
+        // line 81
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/support"), "html", null, true);
         echo "\">Support Center</a></li>
                   </ul>
                 </li> -->
                 </li>
                 <li><a href=\"";
-        // line 97
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
+        // line 85
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/inscription"), "html", null, true);
         echo "\">Votre compte</a>
                   <ul class=\"dropdown\">
                     <li><a href=\"";
-        // line 99
+        // line 87
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/connexion"), "html", null, true);
         echo "\">Connexion</a></li>
                     <li><a href=\"";
-        // line 100
+        // line 88
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/inscription"), "html", null, true);
         echo "\">Inscription</a></li>
                   </ul>
@@ -311,7 +299,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
 
     }
 
-    // line 111
+    // line 99
     public function block_body($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -320,7 +308,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 112
+        // line 100
         echo "
 ";
         
@@ -331,7 +319,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
 
     }
 
-    // line 115
+    // line 103
     public function block_footer($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -340,148 +328,129 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
 
-        // line 116
+        // line 104
         echo "  <footer class=\"footer\">
     <div class=\"container\">
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
         <h4 class=\"title\">A propos de nous</h4>
         <p>Keman Racing ! est une entreprise fictive dans le but d'un projet noté. Rien de tout ça est vrai !</p>
-        <a class=\"button small\" href=\"";
-        // line 121
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
-        echo "\">Lire la suite</a>
       </div>
-      <!-- end widget -->
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
         <h4 class=\"title\">Dernières nouveautés</h4>
         <ul class=\"recent_posts\">
           <li>
             <a href=\"";
-        // line 128
+        // line 114
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/home1"), "html", null, true);
         echo "\">
-            <img src=\"img/recent_post_01.png\" alt=\"\" />Bientôt une nouvelle application mobile !</a>
+            <img src=\"";
+        // line 115
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/img/recent_post_01.png"), "html", null, true);
+        echo "\" alt=\"\" /> Bientôt une nouvelle application mobile !</a>
             <a class=\"readmore\" href=\"";
-        // line 130
+        // line 116
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\">En savoir plus</a>
           </li>
           <li>
             <a href=\"";
-        // line 133
+        // line 119
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/home1"), "html", null, true);
         echo "#\">
-            <img src=\"img/recent_post_02.png\" alt=\"\" />Bientôt de nouveaux modèles !</a>
+            <img src=\"";
+        // line 120
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/img/recent_post_02.png"), "html", null, true);
+        echo "\" alt=\"\" /> Bientôt de nouveaux modèles !</a>
             <a class=\"readmore\" href=\"";
-        // line 135
+        // line 121
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\">En savoir plus</a>
           </li>
         </ul>
-        <!-- recent posts -->
       </div>
-      <!-- end widget -->
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
-        <h4 class=\"title\">Restons en contact</h4>
+        <h4 class=\"title\"> Restons en contact</h4>
         <ul class=\"contact_details\">
-          <li><i class=\"fa fa-envelope-o\"></i>info@kemanracing.com</li>
-          <li><i class=\"fa fa-phone-square\"></i>01 12 23 45 56</li>
+          <li><i class=\"fa fa-envelope-o\"></i> info@kemanracing.com</li>
+          <li><i class=\"fa fa-phone-square\"></i> 01 12 23 45 56</li>
           <li><i class=\"fa fa-home\"></i> Siège social, 1 Rue Pierre Louis Guyard, 78360 Montesson</li>
           <li><a href=\"#\"><i class=\"fa fa-map-marker\"></i> Voir sur Google Maps</a></li>
         </ul>
-        <!-- contact_details -->
       </div>
-      <!-- end widget -->
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
-        <h4 class=\"title\">Flickr Stream</h4>
+        <h4 class=\"title\"></h4>
         <ul class=\"flickr\">
           <li><a href=\"";
-        // line 155
+        // line 137
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_01.jpg\"></a></li>
           <li><a href=\"";
-        // line 156
+        // line 138
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_02.jpg\"></a></li>
           <li><a href=\"";
-        // line 157
+        // line 139
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_03.jpg\"></a></li>
           <li><a href=\"";
-        // line 158
+        // line 140
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_04.jpg\"></a></li>
           <li><a href=\"";
-        // line 159
+        // line 141
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_05.jpg\"></a></li>
           <li><a href=\"";
-        // line 160
+        // line 142
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_06.jpg\"></a></li>
           <li><a href=\"";
-        // line 161
+        // line 143
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_07.jpg\"></a></li>
           <li><a href=\"";
-        // line 162
+        // line 144
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\"><img alt=\"\" src=\"img/flickr_08.jpg\"></a></li>
         </ul>
       </div>
-      <!-- end widget -->
     </div>
-    <!-- end container -->
-
     <div class=\"copyrights\">
       <div class=\"container\">
         <div class=\"col-lg-6 col-md-6 col-sm-12 columns footer-left\">
           <p>Copyright © 2018 - Tous droits réservés.</p>
           <div class=\"credits\">
-            <!--
-              You are NOT allowed to delete the credit link to TemplateMag with free version.
-              You can delete the credit link only if you bought the pro version.
-              Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/maxibiz-bootstrap-business-template/
-              Licensing information: https://templatemag.com/license/
-            -->
-            Crée pour un examen à l'<a href=\"";
-        // line 180
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/https://www.ifocop.fr/"), "html", null, true);
-        echo "\" target=\"blank\">IFOCOP</a>, PARIS.
+            Crée pour un examen à l'<a href=\"https://www.ifocop.fr/\" target=\"blank\">IFOCOP</a>, PARIS.
           </div>
         </div>
-        <!-- end widget -->
         <div class=\"col-lg-6 col-md-6 col-sm-12 columns text-right\">
           <div class=\"footer-menu right\">
             <ul class=\"menu\">
               <li><a href=\"";
-        // line 187
+        // line 159
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/index"), "html", null, true);
         echo "\">Home</a></li>
               <li><a href=\"";
-        // line 188
+        // line 160
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/about"), "html", null, true);
         echo "\">A propos</a></li>
               <li><a href=\"";
-        // line 189
+        // line 161
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\">Plan du site</a></li>
               <li><a href=\"";
-        // line 190
+        // line 162
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/#"), "html", null, true);
         echo "\">CGV</a></li>
               <li><a href=\"";
-        // line 191
+        // line 163
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/contact"), "html", null, true);
         echo "\">Contact</a></li>
             </ul>
           </div>
         </div>
-        <!-- end large-6 -->
       </div>
-      <!-- end container -->
     </div>
-    <!-- end copyrights -->
   </footer>
 ";
         
@@ -492,7 +461,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
 
     }
 
-    // line 203
+    // line 172
     public function block_javascripts($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -501,65 +470,63 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 204
+        // line 173
         echo "  <div class=\"dmtop\">Scroll to Top</div>
-
-  <!-- JavaScript Libraries -->
   <script src=\"";
-        // line 207
+        // line 174
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/jquery/jquery.min.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 208
+        // line 175
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/bootstrap/js/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 209
+        // line 176
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/php-mail-form/validate.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 210
+        // line 177
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/prettyphoto/js/prettyphoto.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 211
+        // line 178
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/isotope/isotope.min.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 212
+        // line 179
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/hover/hoverdir.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 213
+        // line 180
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/hover/hoverex.min.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 214
+        // line 181
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/unveil-effects/unveil-effects.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 215
+        // line 182
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/owl-carousel/owl-carousel.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 216
+        // line 183
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/jetmenu/jetmenu.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 217
+        // line 184
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/animate-enhanced/animate-enhanced.min.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 218
+        // line 185
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/jigowatt/jigowatt.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 219
+        // line 186
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/lib/easypiechart/easypiechart.min.js"), "html", null, true);
         echo "\"></script>
 
   <script src=\"";
-        // line 221
+        // line 188
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/assets/js/main.js"), "html", null, true);
         echo "\"></script>
 ";
@@ -578,7 +545,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
 
     public function getDebugInfo()
     {
-        return array (  563 => 221,  558 => 219,  554 => 218,  550 => 217,  546 => 216,  542 => 215,  538 => 214,  534 => 213,  530 => 212,  526 => 211,  522 => 210,  518 => 209,  514 => 208,  510 => 207,  505 => 204,  496 => 203,  475 => 191,  471 => 190,  467 => 189,  463 => 188,  459 => 187,  449 => 180,  428 => 162,  424 => 161,  420 => 160,  416 => 159,  412 => 158,  408 => 157,  404 => 156,  400 => 155,  377 => 135,  372 => 133,  366 => 130,  361 => 128,  351 => 121,  344 => 116,  335 => 115,  324 => 112,  315 => 111,  294 => 100,  290 => 99,  285 => 97,  278 => 93,  274 => 92,  270 => 91,  266 => 90,  262 => 89,  257 => 87,  251 => 84,  246 => 82,  239 => 78,  234 => 76,  228 => 73,  224 => 72,  220 => 71,  216 => 70,  212 => 69,  208 => 68,  201 => 64,  171 => 36,  162 => 35,  148 => 30,  144 => 29,  138 => 26,  134 => 25,  130 => 24,  126 => 23,  122 => 22,  116 => 19,  106 => 12,  99 => 7,  90 => 6,  72 => 5,  60 => 223,  58 => 203,  55 => 202,  53 => 115,  50 => 114,  48 => 111,  46 => 35,  43 => 34,  41 => 6,  37 => 5,  31 => 1,);
+        return array (  530 => 188,  525 => 186,  521 => 185,  517 => 184,  513 => 183,  509 => 182,  505 => 181,  501 => 180,  497 => 179,  493 => 178,  489 => 177,  485 => 176,  481 => 175,  477 => 174,  474 => 173,  465 => 172,  447 => 163,  443 => 162,  439 => 161,  435 => 160,  431 => 159,  413 => 144,  409 => 143,  405 => 142,  401 => 141,  397 => 140,  393 => 139,  389 => 138,  385 => 137,  366 => 121,  362 => 120,  358 => 119,  352 => 116,  348 => 115,  344 => 114,  332 => 104,  323 => 103,  312 => 100,  303 => 99,  282 => 88,  278 => 87,  273 => 85,  266 => 81,  262 => 80,  258 => 79,  254 => 78,  250 => 77,  245 => 75,  239 => 72,  234 => 70,  227 => 66,  222 => 64,  216 => 61,  212 => 60,  208 => 59,  204 => 58,  200 => 57,  196 => 56,  189 => 52,  159 => 24,  150 => 23,  137 => 19,  133 => 18,  129 => 17,  125 => 16,  121 => 15,  117 => 14,  113 => 13,  109 => 12,  104 => 10,  99 => 7,  90 => 6,  72 => 5,  60 => 190,  58 => 172,  55 => 171,  53 => 103,  50 => 102,  48 => 99,  46 => 23,  43 => 22,  41 => 6,  37 => 5,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -595,33 +562,21 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
 <html lang=\"fr\">
 <head>
   <meta charset=\"utf-8\">
-        <title>{% block title %}Bienvenue chez Keman Racing !{% endblock %}</title>
-{% block stylesheets %}
+  <title>{% block title %}Bienvenue chez Keman Racing !{% endblock %}</title>
+  {% block stylesheets %}
   <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">
   <meta content=\"\" name=\"keywords\">
   <meta content=\"\" name=\"description\">
-
-  <!-- Favicons -->
   <link href=\"{{ asset('/assets/img/logo.png') }}\" rel=\"icon\">
-
-
-  <!-- Google Fonts -->
   <link href=\"https://fonts.googleapis.com/css?family=Ruda:400,900,700\" rel=\"stylesheet\">
-
-  <!-- Bootstrap CSS File -->
   <link href=\"{{ asset('/assets/lib/bootstrap/css/bootstrap.min.css') }}\" rel=\"stylesheet\">
-
-  <!-- Libraries CSS Files -->
   <link href=\"{{ asset('/assets/lib/font-awesome/css/font-awesome.min.css') }}\" rel=\"stylesheet\">
   <link href=\"{{ asset('/assets/lib/prettyphoto/css/prettyphoto.css') }}\" rel=\"stylesheet\">
   <link href=\"{{ asset('/assets/lib/hover/hoverex-all.css') }}\" rel=\"stylesheet\">
   <link href=\"{{ asset('/assets/lib/jetmenu/jetmenu.css') }}\" rel=\"stylesheet\">
   <link href=\"{{ asset('/assets/lib/owl-carousel/owl-carousel.css') }}\" rel=\"stylesheet\">
-
-  <!-- Main Stylesheet File -->
   <link href=\"{{ asset('/assets/css/style.css') }}\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"{{ asset('/assets/css/colors/blue.css') }}\">
-
 </head>
 {% endblock %}
 
@@ -666,13 +621,13 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
                     <li><a href=\"{{ asset('/contact') }}\">Nous Contacter</a></li>
                   </ul>
                 </li>
-                <li><a href=\"{{ asset('#') }}\">Nos circuits</a>
+                <li><a href=\"{{ asset('/circuits') }}\">Nos circuits</a>
                   <ul class=\"dropdown\">
                     <li><a href=\"{{ asset('/circuits') }}\">Choisir votre circuit</a></li>
                     <li><a href=\"gallery-portfolio.html\">Gallerie</a></li>
                   </ul>
                 </li>
-                <li><a href=\"{{ asset('#') }}\">Nos voitures</a>
+                <li><a href=\"{{ asset('/brands') }}\">Nos voitures</a>
                   <ul class=\"dropdown\">
                     <li><a href=\"{{ asset('/brands') }}\">Choisir votre voiture</a></li>
                     <li><a href=\"gallery-portfolio.html\">Gallerie</a></li>
@@ -687,7 +642,7 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
                   </ul>
                 </li> -->
                 </li>
-                <li><a href=\"{{ asset('/#') }}\">Votre compte</a>
+                <li><a href=\"{{ asset('/inscription') }}\">Votre compte</a>
                   <ul class=\"dropdown\">
                     <li><a href=\"{{ asset('/connexion') }}\">Connexion</a></li>
                     <li><a href=\"{{ asset('/inscription') }}\">Inscription</a></li>
@@ -711,39 +666,33 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
         <h4 class=\"title\">A propos de nous</h4>
         <p>Keman Racing ! est une entreprise fictive dans le but d'un projet noté. Rien de tout ça est vrai !</p>
-        <a class=\"button small\" href=\"{{ asset('/#') }}\">Lire la suite</a>
       </div>
-      <!-- end widget -->
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
         <h4 class=\"title\">Dernières nouveautés</h4>
         <ul class=\"recent_posts\">
           <li>
             <a href=\"{{ asset('/home1') }}\">
-            <img src=\"img/recent_post_01.png\" alt=\"\" />Bientôt une nouvelle application mobile !</a>
+            <img src=\"{{ asset('assets/img/recent_post_01.png') }}\" alt=\"\" /> Bientôt une nouvelle application mobile !</a>
             <a class=\"readmore\" href=\"{{ asset('/#') }}\">En savoir plus</a>
           </li>
           <li>
             <a href=\"{{ asset('/home1') }}#\">
-            <img src=\"img/recent_post_02.png\" alt=\"\" />Bientôt de nouveaux modèles !</a>
+            <img src=\"{{ asset('assets/img/recent_post_02.png') }}\" alt=\"\" /> Bientôt de nouveaux modèles !</a>
             <a class=\"readmore\" href=\"{{ asset('/#') }}\">En savoir plus</a>
           </li>
         </ul>
-        <!-- recent posts -->
       </div>
-      <!-- end widget -->
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
-        <h4 class=\"title\">Restons en contact</h4>
+        <h4 class=\"title\"> Restons en contact</h4>
         <ul class=\"contact_details\">
-          <li><i class=\"fa fa-envelope-o\"></i>info@kemanracing.com</li>
-          <li><i class=\"fa fa-phone-square\"></i>01 12 23 45 56</li>
+          <li><i class=\"fa fa-envelope-o\"></i> info@kemanracing.com</li>
+          <li><i class=\"fa fa-phone-square\"></i> 01 12 23 45 56</li>
           <li><i class=\"fa fa-home\"></i> Siège social, 1 Rue Pierre Louis Guyard, 78360 Montesson</li>
           <li><a href=\"#\"><i class=\"fa fa-map-marker\"></i> Voir sur Google Maps</a></li>
         </ul>
-        <!-- contact_details -->
       </div>
-      <!-- end widget -->
       <div class=\"widget col-lg-3 col-md-3 col-sm-12\">
-        <h4 class=\"title\">Flickr Stream</h4>
+        <h4 class=\"title\"></h4>
         <ul class=\"flickr\">
           <li><a href=\"{{ asset('/#') }}\"><img alt=\"\" src=\"img/flickr_01.jpg\"></a></li>
           <li><a href=\"{{ asset('/#') }}\"><img alt=\"\" src=\"img/flickr_02.jpg\"></a></li>
@@ -755,25 +704,15 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
           <li><a href=\"{{ asset('/#') }}\"><img alt=\"\" src=\"img/flickr_08.jpg\"></a></li>
         </ul>
       </div>
-      <!-- end widget -->
     </div>
-    <!-- end container -->
-
     <div class=\"copyrights\">
       <div class=\"container\">
         <div class=\"col-lg-6 col-md-6 col-sm-12 columns footer-left\">
           <p>Copyright © 2018 - Tous droits réservés.</p>
           <div class=\"credits\">
-            <!--
-              You are NOT allowed to delete the credit link to TemplateMag with free version.
-              You can delete the credit link only if you bought the pro version.
-              Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/maxibiz-bootstrap-business-template/
-              Licensing information: https://templatemag.com/license/
-            -->
-            Crée pour un examen à l'<a href=\"{{ asset('/https://www.ifocop.fr/') }}\" target=\"blank\">IFOCOP</a>, PARIS.
+            Crée pour un examen à l'<a href=\"https://www.ifocop.fr/\" target=\"blank\">IFOCOP</a>, PARIS.
           </div>
         </div>
-        <!-- end widget -->
         <div class=\"col-lg-6 col-md-6 col-sm-12 columns text-right\">
           <div class=\"footer-menu right\">
             <ul class=\"menu\">
@@ -785,18 +724,13 @@ class __TwigTemplate_10afda2b1cdd5a9f65391b6ef3317f2cc9bebd36bb40262c3db2c5639ca
             </ul>
           </div>
         </div>
-        <!-- end large-6 -->
       </div>
-      <!-- end container -->
     </div>
-    <!-- end copyrights -->
   </footer>
 {% endblock %}
 
 {% block javascripts %}
   <div class=\"dmtop\">Scroll to Top</div>
-
-  <!-- JavaScript Libraries -->
   <script src=\"{{ asset('/assets/lib/jquery/jquery.min.js') }}\"></script>
   <script src=\"{{ asset('/assets/lib/bootstrap/js/bootstrap.min.js') }}\"></script>
   <script src=\"{{ asset('/assets/lib/php-mail-form/validate.js') }}\"></script>

@@ -2,33 +2,21 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-        <title>{% block title %}Bienvenue chez Keman Racing !{% endblock %}</title>
-{% block stylesheets %}
+  <title>{% block title %}Bienvenue chez Keman Racing !{% endblock %}</title>
+  {% block stylesheets %}
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
-  <!-- Favicons -->
   <link href="{{ asset('/assets/img/logo.png') }}" rel="icon">
-
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ruda:400,900,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
   <link href="{{ asset('/assets/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
   <link href="{{ asset('/assets/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
   <link href="{{ asset('/assets/lib/prettyphoto/css/prettyphoto.css') }}" rel="stylesheet">
   <link href="{{ asset('/assets/lib/hover/hoverex-all.css') }}" rel="stylesheet">
   <link href="{{ asset('/assets/lib/jetmenu/jetmenu.css') }}" rel="stylesheet">
   <link href="{{ asset('/assets/lib/owl-carousel/owl-carousel.css') }}" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
   <link href="{{ asset('/assets/css/style.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('/assets/css/colors/blue.css') }}">
-
 </head>
 {% endblock %}
 
@@ -73,13 +61,13 @@
                     <li><a href="{{ asset('/contact') }}">Nous Contacter</a></li>
                   </ul>
                 </li>
-                <li><a href="{{ asset('#') }}">Nos circuits</a>
+                <li><a href="{{ asset('/circuits') }}">Nos circuits</a>
                   <ul class="dropdown">
                     <li><a href="{{ asset('/circuits') }}">Choisir votre circuit</a></li>
                     <li><a href="gallery-portfolio.html">Gallerie</a></li>
                   </ul>
                 </li>
-                <li><a href="{{ asset('#') }}">Nos voitures</a>
+                <li><a href="{{ asset('/brands') }}">Nos voitures</a>
                   <ul class="dropdown">
                     <li><a href="{{ asset('/brands') }}">Choisir votre voiture</a></li>
                     <li><a href="gallery-portfolio.html">Gallerie</a></li>
@@ -94,7 +82,7 @@
                   </ul>
                 </li> -->
                 </li>
-                <li><a href="{{ asset('/#') }}">Votre compte</a>
+                <li><a href="{{ asset('/inscription') }}">Votre compte</a>
                   <ul class="dropdown">
                     <li><a href="{{ asset('/connexion') }}">Connexion</a></li>
                     <li><a href="{{ asset('/inscription') }}">Inscription</a></li>
@@ -118,39 +106,33 @@
       <div class="widget col-lg-3 col-md-3 col-sm-12">
         <h4 class="title">A propos de nous</h4>
         <p>Keman Racing ! est une entreprise fictive dans le but d'un projet noté. Rien de tout ça est vrai !</p>
-        <a class="button small" href="{{ asset('/#') }}">Lire la suite</a>
       </div>
-      <!-- end widget -->
       <div class="widget col-lg-3 col-md-3 col-sm-12">
         <h4 class="title">Dernières nouveautés</h4>
         <ul class="recent_posts">
           <li>
             <a href="{{ asset('/home1') }}">
-            <img src="img/recent_post_01.png" alt="" />Bientôt une nouvelle application mobile !</a>
+            <img src="{{ asset('assets/img/recent_post_01.png') }}" alt="" /> Bientôt une nouvelle application mobile !</a>
             <a class="readmore" href="{{ asset('/#') }}">En savoir plus</a>
           </li>
           <li>
             <a href="{{ asset('/home1') }}#">
-            <img src="img/recent_post_02.png" alt="" />Bientôt de nouveaux modèles !</a>
+            <img src="{{ asset('assets/img/recent_post_02.png') }}" alt="" /> Bientôt de nouveaux modèles !</a>
             <a class="readmore" href="{{ asset('/#') }}">En savoir plus</a>
           </li>
         </ul>
-        <!-- recent posts -->
       </div>
-      <!-- end widget -->
       <div class="widget col-lg-3 col-md-3 col-sm-12">
-        <h4 class="title">Restons en contact</h4>
+        <h4 class="title"> Restons en contact</h4>
         <ul class="contact_details">
-          <li><i class="fa fa-envelope-o"></i>info@kemanracing.com</li>
-          <li><i class="fa fa-phone-square"></i>01 12 23 45 56</li>
+          <li><i class="fa fa-envelope-o"></i> info@kemanracing.com</li>
+          <li><i class="fa fa-phone-square"></i> 01 12 23 45 56</li>
           <li><i class="fa fa-home"></i> Siège social, 1 Rue Pierre Louis Guyard, 78360 Montesson</li>
           <li><a href="#"><i class="fa fa-map-marker"></i> Voir sur Google Maps</a></li>
         </ul>
-        <!-- contact_details -->
       </div>
-      <!-- end widget -->
       <div class="widget col-lg-3 col-md-3 col-sm-12">
-        <h4 class="title">Flickr Stream</h4>
+        <h4 class="title"></h4>
         <ul class="flickr">
           <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_01.jpg"></a></li>
           <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_02.jpg"></a></li>
@@ -162,25 +144,15 @@
           <li><a href="{{ asset('/#') }}"><img alt="" src="img/flickr_08.jpg"></a></li>
         </ul>
       </div>
-      <!-- end widget -->
     </div>
-    <!-- end container -->
-
     <div class="copyrights">
       <div class="container">
         <div class="col-lg-6 col-md-6 col-sm-12 columns footer-left">
           <p>Copyright © 2018 - Tous droits réservés.</p>
           <div class="credits">
-            <!--
-              You are NOT allowed to delete the credit link to TemplateMag with free version.
-              You can delete the credit link only if you bought the pro version.
-              Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/maxibiz-bootstrap-business-template/
-              Licensing information: https://templatemag.com/license/
-            -->
-            Crée pour un examen à l'<a href="{{ asset('/https://www.ifocop.fr/') }}" target="blank">IFOCOP</a>, PARIS.
+            Crée pour un examen à l'<a href="https://www.ifocop.fr/" target="blank">IFOCOP</a>, PARIS.
           </div>
         </div>
-        <!-- end widget -->
         <div class="col-lg-6 col-md-6 col-sm-12 columns text-right">
           <div class="footer-menu right">
             <ul class="menu">
@@ -192,18 +164,13 @@
             </ul>
           </div>
         </div>
-        <!-- end large-6 -->
       </div>
-      <!-- end container -->
     </div>
-    <!-- end copyrights -->
   </footer>
 {% endblock %}
 
 {% block javascripts %}
   <div class="dmtop">Scroll to Top</div>
-
-  <!-- JavaScript Libraries -->
   <script src="{{ asset('/assets/lib/jquery/jquery.min.js') }}"></script>
   <script src="{{ asset('/assets/lib/bootstrap/js/bootstrap.min.js') }}"></script>
   <script src="{{ asset('/assets/lib/php-mail-form/validate.js') }}"></script>
